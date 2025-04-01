@@ -2,7 +2,9 @@ Aharon Raanan & Levi Greenfeld
 
 Nursing home - medicine
 
-The system stores data on residents, doctors, medications, and the relationships between them.
+The system stores data on residents, doctors, medications, and the relationships between them
+Doctor visits, treatments, medications that each resident should take (if needed),
+and more.
 
 
 ERD (Entity-Relationship Diagram)
