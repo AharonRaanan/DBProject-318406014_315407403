@@ -27,4 +27,8 @@ Second tool: using mockaro to create csv file
 Third tool: using python to create csv file
 ![83FAE20A-6067-40D2-9430-159B9E7FBA4F](https://github.com/user-attachments/assets/33415e6a-55d4-43ce-b872-cf293b1ba71c)
 
+Photo of the backup
+
+Photo of the restoration
+
 
