@@ -1,82 +1,82 @@
-CREATE TABLE Doctors
+CREATE TABLE doctors
 (
-  Doc_id INT NOT NULL,
-  Doc_fName VARCHAR(20) NOT NULL,
-  Doc_lName VARCHAR(20) NOT NULL,
-  Specialization VARCHAR(30) NOT NULL,
-  HireDate DATE NOT NULL,
-  LicenseRenewalDate_ DATE NOT NULL,
-  Phone VARCHAR(12) NOT NULL,
-  Email VARCHAR(30) NOT NULL,
+  doc_id INT NOT NULL,
+  doc_fname VARCHAR(50) NOT NULL,
+  doc_lname VARCHAR(50) NOT NULL,
+  specialization VARCHAR(100) NOT NULL,
+  hiredate DATE NOT NULL,
+  licenserenewaldate_ DATE NOT NULL,
+  phone VARCHAR(100) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  doc_gender VARCHAR(20) NOT NULL,
   PRIMARY KEY (Doc_id)
 );
 
-CREATE TABLE Residents
+CREATE TABLE residents
 (
-  ResidentID INT NOT NULL,
-  R_fName VARCHAR(20) NOT NULL,
-  R_lName VARCHAR(20) NOT NULL,
-  Gender VARCHAR(10) NOT NULL,
-  BirthDate DATE NOT NULL,
-  AdmissionDate DATE NOT NULL,
-  MedicalStatus VARCHAR(100) NOT NULL,
-  RoomNumber INT NOT NULL,
-  PRIMARY KEY (ResidentID)
+  resident_id INT NOT NULL,
+  r_fname VARCHAR(50) NOT NULL,
+  r_lname VARCHAR(50) NOT NULL,
+  r_gender VARCHAR(20) NOT NULL,
+  birthdate DATE NOT NULL,
+  admissiondate DATE NOT NULL,
+  medicalstatus VARCHAR(100) NOT NULL,
+  roomnumber INT NOT NULL,
+  PRIMARY KEY (resident_id)
 );
 
-CREATE TABLE Medications
+CREATE TABLE medications
 (
-  MedicationID INT NOT NULL,
-  M_Name VARCHAR(30) NOT NULL,
-  Dosage VARCHAR(50) NOT NULL,
-  Form VARCHAR(50) NOT NULL,
-  Manufacturer VARCHAR(100) NOT NULL,
-  ApprovalDate DATE NOT NULL,
-  ExpiryDate DATE NOT NULL,
-  PRIMARY KEY (MedicationID)
+  medication_id INT NOT NULL,
+  m_name VARCHAR(100) NOT NULL,
+  dosage VARCHAR(50) NOT NULL,
+  form VARCHAR(50) NOT NULL,
+  manufacturer VARCHAR(100) NOT NULL,
+  approvalDate DATE NOT NULL,
+  expirydate DATE NOT NULL,
+  PRIMARY KEY (medication_id)
 );
 
-CREATE TABLE ResidentMedications_
+CREATE TABLE medicaltreatments
 (
-  S_date DATE NOT NULL,
-  E_date DATE NOT NULL,
-  Frequency VARCHAR(50) NOT NULL,
-  PrescribedBy INT NOT NULL,
-  ResidentMedicationID INT NOT NULL,
-  ResidentID INT NOT NULL,
-  MedicationID INT NOT NULL,
-  PRIMARY KEY (ResidentMedicationID),
-  FOREIGN KEY (ResidentID) REFERENCES Residents(ResidentID),
-  FOREIGN KEY (MedicationID) REFERENCES Medications(MedicationID),
-  UNIQUE (ResidentID, MedicationID)
+  treatmentdate DATE NOT NULL,
+  treatmenttype VARCHAR(300) NOT NULL,
+  notes VARCHAR(300) NOT NULL,
+  followupdate_ DATE NOT NULL,
+  treatmenttime VARCHAR NOT NULL,
+  doc_id INT NOT NULL,
+  resident_id INT NOT NULL,
+  PRIMARY KEY (treatmentdate, doc_id, resident_id),
+  FOREIGN KEY (doc_id) REFERENCES doctors(doc_id),
+  FOREIGN KEY (resident_id) REFERENCES residents(resident_id),
+  UNIQUE (treatmenttime)
 );
 
-CREATE TABLE MedicalTreatments
+CREATE TABLE appointments
 (
-  TreatmentDate DATE NOT NULL,
-  TreatmentType VARCHAR(100) NOT NULL,
-  Notes VARCHAR(300) NOT NULL,
-  TreatmentID INT NOT NULL,
-  FollowUpDate_ DATE NOT NULL,
-  ResidentID INT NOT NULL,
+  appointmentdate DATE NOT NULL,
+  purpose VARCHAR(100) NOT NULL,
+  status VARCHAR(100) NOT NULL,
+  appointmenttime VARCHAR(100) NOT NULL,
+  resident_id INT NOT NULL,
   Doc_id INT NOT NULL,
-  PRIMARY KEY (TreatmentID),
-  FOREIGN KEY (ResidentID) REFERENCES Residents(ResidentID),
-  FOREIGN KEY (Doc_id) REFERENCES Doctors(Doc_id),
-  UNIQUE (ResidentID, Doc_id)
+  PRIMARY KEY (appointmentdate, resident_id, doc_id),
+  FOREIGN KEY (resident_id) REFERENCES residents(resident_id),
+  FOREIGN KEY (doc_id) REFERENCES doctors(doc_id),
+  UNIQUE (appointmenttime)
 );
 
-CREATE TABLE Appointments
+CREATE TABLE residentmedications
 (
-  AppointmentID INT NOT NULL,
-  AppointmentDate DATE NOT NULL,
-  Purpose VARCHAR(200) NOT NULL,
-  Status VARCHAR(50) NOT NULL,
-  AppointmentTime VARCHAR(20) NOT NULL,
-  ResidentID INT NOT NULL,
-  Doc_id INT NOT NULL,
-  PRIMARY KEY (AppointmentID),
-  FOREIGN KEY (ResidentID) REFERENCES Residents(ResidentID),
-  FOREIGN KEY (Doc_id) REFERENCES Doctors(Doc_id),
-  UNIQUE (ResidentID, Doc_id)
+  residentmedication_id INT NOT NULL,
+  s_date DATE NOT NULL,
+  e_date DATE NOT NULL,
+  frequency VARCHAR(30) NOT NULL,
+  prescribedby INT NOT NULL,
+  resident_id INT NOT NULL,
+  medication_id INT NOT NULL,
+  PRIMARY KEY (residentmedication_id),
+  FOREIGN KEY (resident_id) REFERENCES residents(resident_id),
+  FOREIGN KEY (medication_id) REFERENCES medications(medication_id),
+  UNIQUE (resident_id, medication_id)
 );
