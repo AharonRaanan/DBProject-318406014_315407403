@@ -27,8 +27,23 @@ Second tool: using mockaro to create csv file
 Third tool: using python to create csv file
 ![83FAE20A-6067-40D2-9430-159B9E7FBA4F](https://github.com/user-attachments/assets/33415e6a-55d4-43ce-b872-cf293b1ba71c)
 
-Photo of the backup
+Photo of the backup & Photo of the restoration
 
-Photo of the restoration
+![PHOTO-2025-04-01-18-40-23](https://github.com/user-attachments/assets/50152aa5-8198-4e0a-bfb9-db61b51e7687)
+
+![PHOTO-2025-04-01-18-45-46](https://github.com/user-attachments/assets/6c3f8a90-7d2f-4894-91c3-65f5e32fadfe)
+
+![PHOTO-2025-04-01-19-04-43](https://github.com/user-attachments/assets/febfa1c5-9cf8-43ff-8ee4-5e469d613faa)
+
+![PHOTO-2025-04-01-19-05-50](https://github.com/user-attachments/assets/7e628ba9-15f6-4a85-8efd-e7284f1b8d34)
+
+![PHOTO-2025-04-01-19-03-37](https://github.com/user-attachments/assets/c93697a1-8375-4bc6-931d-0b30109332c7)
+
+
+
+
+
+
+
 
 
