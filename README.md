@@ -10,3 +10,8 @@ ERD (Entity-Relationship Diagram)
   
 DSD (Data Structure Diagram)
 ![PHOTO-2025-04-01-13-48-38](https://github.com/user-attachments/assets/31011c74-5903-494f-af79-15b81a33ffdc)
+
+
+Second tool: using generatedata. to create csv file
+
+![צילום מסך 2025-04-01 152519](https://github.com/user-attachments/assets/9183710c-c128-407f-a34d-d4841d5468b4)
