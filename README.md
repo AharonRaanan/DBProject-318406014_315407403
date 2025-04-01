@@ -1,1 +1,1 @@
-בית אבות
+Nursing home
