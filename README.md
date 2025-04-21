@@ -78,4 +78,31 @@ delete.sql:
 ![image](https://github.com/user-attachments/assets/28245ec1-6988-4a7c-9bd8-0832ff32193f)
 ![image](https://github.com/user-attachments/assets/945e83be-0a82-414d-a186-5a1545bf5e83)
 
+Constraints.sql:
+1.
+ALTER TABLE public.doctors
+    ALTER COLUMN doc_fname SET NOT NULL,
+    ALTER COLUMN doc_lname SET NOT NULL
 
+    השאילתא נועדה לדאוג שאי אפשר למלא נתונים על רופא מבלי לציין את השם פרטי ומשפחה שלו:
+
+    ![image](https://github.com/user-attachments/assets/b8dcd380-314b-4dd4-b9c7-99ea19214942)
+
+2.
+  ALTER TABLE public.residents
+    ALTER COLUMN r_gender SET DEFAULT 'Unknown';
+
+  השאילתא נועדה למקרה שאם לא מציינים את המין הדייר, אז ברירת המחדל הוא יהיה Unknown, אבל אם יכניסו כל ערך אחר שלא male/female/Non binary: אז תהיה שגיאה
+
+  ![image](https://github.com/user-attachments/assets/b7f67951-7754-480c-bcab-75e9e1ba7518)
+
+  ![image](https://github.com/user-attachments/assets/39b17469-1618-401f-9740-d67b89976af7)
+
+3.
+    ALTER TABLE public.medications
+    ADD CONSTRAINT form_check CHECK (form IN ('Oral', 'Topical', 'Intramuscular', 'Intravenous', 'Subcutaneous', 'Intranasal'));
+מטרת השאילתא לדאוג, שלא יכנסו ערכים אחרים מאלו שברשימה לעמודת form, אם יכנס ערך שלא ברשימה נקבל שגיאה:
+
+![image](https://github.com/user-attachments/assets/93a806ee-033f-47a7-bcb4-04e9396093a1)
+
+  
