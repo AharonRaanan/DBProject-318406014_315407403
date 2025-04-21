@@ -40,10 +40,10 @@ Photo of the backup & Photo of the restoration
 ![PHOTO-2025-04-01-19-05-50](https://github.com/user-attachments/assets/7e628ba9-15f6-4a85-8efd-e7284f1b8d34)
 
 Stage B:
-Select queries:
 
-DBProject-318406014_315407403/stage B
-/Select__queries.docx
+Select queries:
+[DBProject-318406014_315407403/stage B
+/Select__queries.docx](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20B/Select__queries.docx)
 
 Update.sql:
 
