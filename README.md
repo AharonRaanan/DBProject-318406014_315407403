@@ -39,10 +39,31 @@ Photo of the backup & Photo of the restoration
 
 ![PHOTO-2025-04-01-19-05-50](https://github.com/user-attachments/assets/7e628ba9-15f6-4a85-8efd-e7284f1b8d34)
 
+Stage B:
 
+Update.sql:
 
+1. 
+אני בודק האם יש תאריכי הנפקת תרופה שהן מאוחרים מתאריך תוקף התרופה, מצאנו שיש. כדי לפתור את הקונפליקט כתבנו שאילתת update כך, שבכל נתון עם מצב כזה, השאילתא תחליף בין התאריכים כך שזה יהיה הגיוני.
+![image](https://github.com/user-attachments/assets/3ebf7aa4-05ef-4b50-a321-ccd0badfeec4)
+![image](https://github.com/user-attachments/assets/48e2a19f-d36e-4d14-a360-5ffec8056c82)
+![image](https://github.com/user-attachments/assets/d2f8cb1c-35c4-439e-82d6-d5253c1e8511)
 
+2.
 
+אנו רוצים לקחת את המאפיינים purpos, status מטבלת appointment ולהעביר אותם לטבלת medicaltreatments 
+
+![image](https://github.com/user-attachments/assets/8d6e0006-38d1-423f-802f-0ea963d50f27)
+![image](https://github.com/user-attachments/assets/745ac4db-2d47-4dcc-a750-176ca5e5e3a4)
+![image](https://github.com/user-attachments/assets/83301915-50f3-4684-9da6-7de5e425b8d1)
+![image](https://github.com/user-attachments/assets/a978e881-a8f5-4aa6-a05c-b030bd06d32f)
+
+3.
+באמצעות שאילתת update אני רוצה לעדכן בטבלת medicaltreatments את המאפיין purpose לפי ההתמחות של הרופא ואת המאפיין status לפי הסטטוס של הדייר.
+![image](https://github.com/user-attachments/assets/4c451012-decb-4b5b-a603-beb6a50bd1fe)
+![image](https://github.com/user-attachments/assets/d63f6b29-2832-4863-baf0-1d95229e22c1)
+![image](https://github.com/user-attachments/assets/661d1e35-fbd0-4c0a-bda8-c2830779e7ee)
+![image](https://github.com/user-attachments/assets/a04e8fa2-f529-43f7-bc2d-909815df991e)
 
 
 
