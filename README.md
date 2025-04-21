@@ -42,7 +42,7 @@ Photo of the backup & Photo of the restoration
 Stage B:
 Select queries:
 
-
+stage B/שאילתות בבסיס הנתונים שלנו.docx
 
 Update.sql:
 
