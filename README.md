@@ -65,9 +65,12 @@ Update.sql:
 ![image](https://github.com/user-attachments/assets/661d1e35-fbd0-4c0a-bda8-c2830779e7ee)
 ![image](https://github.com/user-attachments/assets/a04e8fa2-f529-43f7-bc2d-909815df991e)
 
+delete.sql:
 
+1.
 
-
-
+החלטנו לאחד את טבלת appointment עם הטבלה medicaltreatments, לכן אנחנו מוחקים את טבלת appointment.
+![image](https://github.com/user-attachments/assets/28245ec1-6988-4a7c-9bd8-0832ff32193f)
+![image](https://github.com/user-attachments/assets/945e83be-0a82-414d-a186-5a1545bf5e83)
 
 
