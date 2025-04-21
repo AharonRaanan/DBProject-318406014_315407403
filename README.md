@@ -42,6 +42,7 @@ Photo of the backup & Photo of the restoration
 Stage B:
 
 Select queries:
+
 [DBProject-318406014_315407403/stage B
 /Select__queries.docx](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20B/Select__queries.docx)
 
