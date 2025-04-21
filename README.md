@@ -101,6 +101,8 @@ ALTER TABLE public.doctors
 3.
     ALTER TABLE public.medications
     ADD CONSTRAINT form_check CHECK (form IN ('Oral', 'Topical', 'Intramuscular', 'Intravenous', 'Subcutaneous', 'Intranasal'));
+
+  
 מטרת השאילתא לדאוג, שלא יכנסו ערכים אחרים מאלו שברשימה לעמודת form, אם יכנס ערך שלא ברשימה נקבל שגיאה:
 
 ![image](https://github.com/user-attachments/assets/93a806ee-033f-47a7-bcb4-04e9396093a1)
