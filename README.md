@@ -42,7 +42,8 @@ Photo of the backup & Photo of the restoration
 Stage B:
 Select queries:
 
-stage B/Select__queries.docx
+DBProject-318406014_315407403/stage B
+/Select__queries.docx
 
 Update.sql:
 
