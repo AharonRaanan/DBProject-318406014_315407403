@@ -42,7 +42,7 @@ Photo of the backup & Photo of the restoration
 Stage B:
 Select queries:
 
-stage B/שאילתות בבסיס הנתונים שלנו.docx
+[stage B/שאילתות בבסיס הנתונים שלנו.docx](https://github.com/AharonRaanan/DBProject-318406014_315407403/commit/52c22c025265b1e20fcbc004c573191f6620771a)
 
 Update.sql:
 
