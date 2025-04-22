@@ -40,6 +40,21 @@ delete.sql:
 ![image](https://github.com/user-attachments/assets/28245ec1-6988-4a7c-9bd8-0832ff32193f)
 ![image](https://github.com/user-attachments/assets/945e83be-0a82-414d-a186-5a1545bf5e83)
 
+2.
+
+אנחנו מוחקים את כל הרופאים בטבלת doctors שהתמחותם היא 'dermatology
+![image](https://github.com/user-attachments/assets/a98fca7f-ac68-4e79-90e5-72b082d4f61a)
+![image](https://github.com/user-attachments/assets/dc342fa9-5e04-480e-952a-f86727002bff)
+![image](https://github.com/user-attachments/assets/95083717-54eb-4c36-b237-b34175c1d4db)
+אפשר לראות שחסר את רופא מספר 5 למשל
+
+3.
+
+בשאילתא זו אנחנו מוחקים דייר ספציפי בטבלת residents לפי resident_id.
+![image](https://github.com/user-attachments/assets/7dbbc544-ec26-4e1f-8195-fca0a50507a2)
+![image](https://github.com/user-attachments/assets/74b09d1b-0ccb-4cf2-af7e-4d18cbd5cb1f)
+
+
 Constraints.sql:
 
 1.
