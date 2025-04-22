@@ -48,7 +48,8 @@ Select queries:
 
 פרטי הדיירים שיש להם יותר מ-4 מכשירים מושאלים, וכמות המכשירים שמושאלים אצלם:
 
-![צילום מסך 2025-04-22 202625](https://github.com/user-attachments/assets/82d6b84b-197f-43c3-9ee3-167ba818c1c8)
+
+![צילום מסך 2025-04-22 214824](https://github.com/user-attachments/assets/0bba89cf-8583-4faf-ae84-134e0bc5dc9b)
 
 
 
