@@ -45,6 +45,7 @@ Stage B:
 
 Select queries:
 
+https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20B/Select%20queries/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202025-04-22%20202833.png
 
 [DBProject-318406014_315407403/stage B
 /Select__queries.docx](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20B/Select__queries.docx)
