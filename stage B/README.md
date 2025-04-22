@@ -47,7 +47,7 @@ ALTER TABLE public.doctors
     ALTER COLUMN doc_fname SET NOT NULL,
     ALTER COLUMN doc_lname SET NOT NULL
 
-    השאילתא נועדה לדאוג שאי אפשר למלא נתונים על רופא מבלי לציין את השם פרטי ומשפחה שלו:
+    השאילתא נועדה לדאוג שלא יהיה אפשר למלא נתונים על רופא מבלי לציין את השם פרטי ומשפחה שלו:
   
 
   ![image](https://github.com/user-attachments/assets/b8dcd380-314b-4dd4-b9c7-99ea19214942)
