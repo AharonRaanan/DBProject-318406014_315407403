@@ -41,16 +41,18 @@ delete.sql:
 ![image](https://github.com/user-attachments/assets/945e83be-0a82-414d-a186-5a1545bf5e83)
 
 Constraints.sql:
+
 1.
 ALTER TABLE public.doctors
     ALTER COLUMN doc_fname SET NOT NULL,
     ALTER COLUMN doc_lname SET NOT NULL
 
     השאילתא נועדה לדאוג שאי אפשר למלא נתונים על רופא מבלי לציין את השם פרטי ומשפחה שלו:
+  
 
     ![image](https://github.com/user-attachments/assets/b8dcd380-314b-4dd4-b9c7-99ea19214942)
 
-2.
+3.
   ALTER TABLE public.residents
     ALTER COLUMN r_gender SET DEFAULT 'Unknown';
 
@@ -60,7 +62,7 @@ ALTER TABLE public.doctors
 
   ![image](https://github.com/user-attachments/assets/39b17469-1618-401f-9740-d67b89976af7)
 
-3.
+4.
     ALTER TABLE public.medications
     ADD CONSTRAINT form_check CHECK (form IN ('Oral', 'Topical', 'Intramuscular', 'Intravenous', 'Subcutaneous', 'Intranasal'));
 
