@@ -50,9 +50,9 @@ ALTER TABLE public.doctors
     השאילתא נועדה לדאוג שאי אפשר למלא נתונים על רופא מבלי לציין את השם פרטי ומשפחה שלו:
   
 
-    ![image](https://github.com/user-attachments/assets/b8dcd380-314b-4dd4-b9c7-99ea19214942)
+  ![image](https://github.com/user-attachments/assets/b8dcd380-314b-4dd4-b9c7-99ea19214942)
 
-3.
+2.
   ALTER TABLE public.residents
     ALTER COLUMN r_gender SET DEFAULT 'Unknown';
 
@@ -62,7 +62,7 @@ ALTER TABLE public.doctors
 
   ![image](https://github.com/user-attachments/assets/39b17469-1618-401f-9740-d67b89976af7)
 
-4.
+3.
     ALTER TABLE public.medications
     ADD CONSTRAINT form_check CHECK (form IN ('Oral', 'Topical', 'Intramuscular', 'Intravenous', 'Subcutaneous', 'Intranasal'));
 
