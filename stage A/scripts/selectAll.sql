@@ -15,4 +15,3 @@ SELECT * FROM medicaltreatments;
 
 -- To select all records from the Appointments table
 SELECT * FROM appointments;
-

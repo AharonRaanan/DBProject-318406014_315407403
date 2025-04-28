@@ -1,0 +1,1001 @@
+medication_id,m_name,dosage,form,manufacturer,approvaldate,expirydate
+1,Losartan,40 mg,Oral,GlaxoSmithKline,06/05/1974,02/25/2012
+2,Melatonin,81 mg,Oral,Boehringer Ingelheim,02/17/1991,04/15/1997
+3,Tamsulosin,40 mg,Oral,Pfizer,11/30/2006,12/01/2022
+4,Atorvastatin,50 mcg / inhalation,Oral,Merck,04/09/1982,09/27/2004
+5,Omeprazole,50 IU / kg,Oral,Abbott,11/25/1991,06/13/2018
+6,Cyclophosphamide,10 units,Oral,Merck,12/07/2000,01/05/1990
+7,Fentanyl,70 mg,Oral,Purdue Pharma,02/08/1978,11/03/2017
+8,Enalapril,15 mg,Oral,Teva,01/25/1985,06/28/1981
+9,Morphine,50 mg,Oral,GlaxoSmithKline,02/23/1990,03/23/1977
+10,Morphine,50 mg,Oral,Boehringer Ingelheim,11/30/1974,12/23/1986
+11,Benadryl,500 mg,Topical,Pfizer,09/30/2000,05/31/1992
+12,Timolol,50 mg,Oral,Takeda,05/16/2017,12/20/1971
+13,Etanercept,50 mcg / inhalation,Oral,Johnson & Johnson,09/14/1997,08/29/1972
+14,Donepezil,50 mg,Oral,Gilead,07/10/2006,01/27/2020
+15,Atorvastatin,10 mg,Oral,Merck,07/12/2003,08/31/1976
+16,Morphine,81 mg,Intramuscular,Apotex,11/27/1974,01/05/2000
+17,Morphine,300 mg,Oral,Pfizer,08/03/1991,12/07/1986
+18,Silver sulfadiazine,0.05%,Oral,Pfizer,01/20/1978,08/16/1991
+19,Melatonin,81 mg,Oral,Pfizer,06/21/2010,03/23/1980
+20,Angiotensin inhibitors,300 mg,Oral,Apotex,01/20/1979,07/28/2004
+21,Ciprofloxacin,10 units,Oral,Teva,12/23/2000,02/15/1973
+22,Cyclobenzaprine,70 mg,Oral,Sanofi,01/01/1992,04/30/2005
+23,Hydrocolloid dressings,10 units,Oral,Merck,01/03/1987,10/28/1984
+24,Sertraline,90 mcg / inhalation,Intravenous,Merck,04/30/1988,02/05/1976
+25,Advil,50 mg,Oral,Bayer,05/19/1981,01/11/2002
+26,Methotrexate,81 mg,Oral,Allergan,03/03/1989,05/03/2009
+27,Azithromycin,81 mg,Oral,AstraZeneca,02/01/2022,06/30/2005
+28,Fluoxetine,300 mg,Subcutaneous,GlaxoSmithKline,08/09/1977,11/14/2015
+29,Hydrocolloid dressings,500 mg,Oral,Merck,05/08/2013,07/09/1985
+30,Melatonin,200 mg,Oral,Novartis,06/25/1993,09/06/2017
+31,Multivitamins,50 mg,Oral,Takeda,12/13/2011,07/28/2019
+32,Alendronate,200 mg,Intramuscular,Allergan,04/27/1984,01/30/1994
+33,Carbidopa-Levodopa,500 mg,Oral,Boehringer Ingelheim,11/04/1997,02/11/2002
+34,Zyrtec,200 mg,Oral,Johnson & Johnson,10/22/2024,07/20/1982
+35,Multivitamins,15 mg,Oral,Pfizer,03/27/2008,04/19/1991
+36,Zyrtec,5 mg,Oral,Pfizer,06/19/1987,10/19/2006
+37,Benadryl,0.05%,Oral,Novartis,01/11/2014,05/05/1992
+38,Etanercept,200 mg,Oral,Boehringer Ingelheim,06/27/1992,02/01/2016
+39,Furosemide,15 mg,Oral,Apotex,01/27/1992,04/02/1987
+40,Paracetamol,300 mg,Oral,Pfizer,03/31/1982,09/17/1985
+41,Fluoxetine,300 mg,Oral,Johnson & Johnson,09/23/2001,10/02/2014
+42,Amitriptyline,81 mg,Oral,Sun Pharmaceutical,10/22/2011,07/29/1975
+43,Aspirin,40 mg,Oral,Bayer,04/09/1983,08/25/1994
+44,Clobetasol,5 mg,Subcutaneous,Pfizer,05/06/1989,09/21/2004
+45,Carbidopa-Levodopa,0.05%,Oral,Pfizer,07/21/2008,12/02/1991
+46,Melatonin,25 mg,Oral,Mylan,04/29/2007,11/23/2019
+47,Advil,200 mg,Oral,Teva,03/06/2000,04/04/2022
+48,Carbidopa-Levodopa,200 IU,Topical,Novo Nordisk,08/28/2024,12/14/2002
+49,Aspirin,10 mg,Oral,Merck,07/08/1980,01/06/2011
+50,Calcitonin,300 mg,Oral,Johnson & Johnson,05/21/1988,07/06/1991
+51,Carbidopa-Levodopa,500 mg,Oral,Pfizer,08/03/2015,12/07/1991
+52,Oseltamivir,300 mg,Oral,Sanofi,12/04/1975,07/22/1989
+53,Timolol,200 mg,Oral,Johnson & Johnson,08/07/2013,08/26/1995
+54,Azithromycin,200 mg,Oral,Merck,10/05/1999,08/20/2005
+55,Methotrexate,50 IU / kg,Oral,Sun Pharmaceutical,07/17/2021,02/25/2017
+56,Paracetamol,50 mcg / inhalation,Oral,Pfizer,07/14/2003,12/12/2023
+57,Melatonin,0.05%,Intramuscular,Boehringer Ingelheim,03/19/2022,03/09/2018
+58,Lisinopril,50 mg,Oral,Mylan,01/29/2007,11/07/2023
+59,Fentanyl,50 mg,Oral,Pfizer,06/03/1973,04/30/2014
+60,Donepezil,5 mg,Oral,Merck,06/12/2007,03/10/2021
+61,Warfarin,300 mg,Oral,Novartis,03/25/1973,12/22/1979
+62,Metformin,20 mg,Oral,Merck,10/02/1970,11/10/2007
+63,Citalopram,10 mg,Oral,Pfizer,08/27/1970,03/28/1983
+64,Ciprofloxacin,40 mg,Oral,Allergan,02/13/1987,11/09/2013
+65,Melatonin,50 mcg,Oral,Teva,12/22/2008,07/02/1974
+66,Temazepam,50 mcg,Oral,Novo Nordisk,09/11/2008,03/31/2021
+67,Lansoprazole,25 mg,Oral,Sanofi,06/08/1997,04/25/2004
+68,Azithromycin,25 mg / 100 mg,Oral,Novo Nordisk,05/18/2016,04/02/1999
+69,Iron Supplements,50 mg,Oral,Bayer,03/04/2019,04/24/2000
+70,Cyclophosphamide,300 mg,Oral,AstraZeneca,12/05/2018,08/22/1972
+71,Losartan,50 mcg / inhalation,Oral,GlaxoSmithKline,05/08/2009,06/21/1987
+72,Gabapentin,500 mg,Oral,Merck,09/13/2003,09/24/1983
+73,Finasteride,90 mcg / inhalation,Oral,Pfizer,09/22/2001,09/29/1981
+74,Temazepam,25 mg / 100 mg,Oral,Pfizer,08/27/1992,11/28/2006
+75,Melatonin,20 mg,Intramuscular,Pfizer,07/26/2020,06/17/1995
+76,Finasteride,15 mg,Oral,Sanofi,09/20/1971,07/09/2014
+77,Multivitamins,300 mg,Oral,Boehringer Ingelheim,03/05/2018,03/28/2008
+78,Cyclophosphamide,20 mg,Oral,Teva,01/24/2015,12/05/2006
+79,Gabapentin,200 mg,Oral,Pfizer,01/31/2012,08/15/1974
+80,Amitriptyline,10 mg,Oral,Novartis,12/21/1980,03/03/2012
+81,Alendronate,200 mg,Oral,Novartis,12/02/1989,03/10/2010
+82,Etanercept,50 IU / kg,Intravenous,Johnson & Johnson,07/08/2024,09/22/1973
+83,Celecoxib,20 mg,Oral,Johnson & Johnson,11/12/1999,02/04/1974
+84,Fluoxetine,50 mcg / inhalation,Oral,Pfizer,01/18/1978,08/24/2005
+85,Lorazepam,500 mg,Oral,Novo Nordisk,07/27/2019,11/08/2009
+86,Multivitamins,25 mg,Oral,Sanofi,04/24/1974,03/20/1985
+87,Ciprofloxacin,300 mg,Oral,GlaxoSmithKline,06/27/1972,05/08/1981
+88,Warfarin,200 mg,Oral,Boehringer Ingelheim,11/21/2001,01/03/1980
+89,Timolol,5 mg,Oral,Gilead,08/03/2023,10/18/2014
+90,Iron Supplements,40 mg,Topical,Pfizer,04/22/2006,02/25/1986
+91,Carbidopa-Levodopa,40 mg,Oral,Pfizer,03/14/1973,10/24/1976
+92,Naloxone,20 mg,Oral,Pfizer,10/06/1973,03/27/1997
+93,Oxycodone,200 mg,Oral,Bayer,10/06/1982,07/06/2013
+94,Angiotensin inhibitors,50 mg,Oral,Pfizer,02/04/1994,05/10/2008
+95,Methotrexate,5 mg,Oral,Teva,10/31/2018,06/04/1982
+96,Methotrexate,20 mg,Oral,Bristol-Myers Squibb,01/27/2001,11/05/1989
+97,Paracetamol,500 mg,Oral,Novo Nordisk,12/25/1979,10/01/2022
+98,Clobetasol,50 mg,Oral,Abbott,10/08/2007,01/31/2025
+99,Omeprazole,90 mcg / inhalation,Oral,Purdue Pharma,09/15/1982,08/11/1980
+100,Metformin,200 mg,Oral,Johnson & Johnson,12/31/2006,08/02/1990
+101,Tamsulosin,10 mg,Oral,Gilead,11/17/1974,11/05/1984
+102,Atorvastatin,50 mcg / inhalation,Oral,Abbott,09/18/2005,09/02/2000
+103,Gabapentin,300 mg,Oral,Merck,08/08/1990,08/23/1981
+104,Hydroxychloroquine,70 mg,Oral,Pfizer,08/14/2003,09/10/1976
+105,Statins,50 mcg / inhalation,Oral,Pfizer,02/26/1987,05/12/2004
+106,Furosemide,300 mg,Topical,Pfizer,09/25/1987,11/15/1997
+107,Angiotensin inhibitors,200 IU,Oral,Pfizer,01/22/1990,10/07/1985
+108,Furosemide,5 mg,Oral,Sanofi,02/13/2023,11/07/1988
+109,Timolol,500 mg,Oral,GlaxoSmithKline,02/05/1998,02/21/2006
+110,Amoxicillin,50 mg,Oral,Gilead,10/11/2012,05/15/2023
+111,Clobetasol,20 mg,Intramuscular,Sanofi,08/02/1978,09/18/1987
+112,Sertraline,0.05%,Intravenous,Pfizer,04/09/2023,03/01/2003
+113,Angiotensin inhibitors,50 mcg,Oral,Merck,08/15/1985,03/23/2019
+114,Citalopram,50 mg,Oral,Bayer,06/15/1989,07/30/1997
+115,Fluoxetine,81 mg,Oral,Merck,05/15/2018,09/28/2000
+116,Fluticasone,300 mg,Oral,Gilead,06/13/2021,01/03/1988
+117,Fentanyl,25 mg / 100 mg,Oral,GlaxoSmithKline,05/28/2013,07/14/1989
+118,Azithromycin,10 units,Oral,Sanofi,01/11/1973,05/21/2001
+119,Atorvastatin,20 mg,Topical,Pfizer,03/18/1972,07/20/2008
+120,Tylenol,50 mg,Oral,Pfizer,03/02/2021,04/16/1971
+121,Lansoprazole,15 mg,Oral,Merck,11/27/2021,07/21/2004
+122,Zyrtec,200 mg,Oral,Merck,06/05/1972,10/03/1981
+123,Gabapentin,300 mg,Oral,Boehringer Ingelheim,12/21/1976,10/10/1998
+124,Oxycodone,15 mg,Oral,Pfizer,02/28/1987,02/15/2017
+125,Omeprazole,50 mcg,Oral,Johnson & Johnson,10/04/2024,09/23/1978
+126,Benadryl,90 mcg / inhalation,Topical,Purdue Pharma,02/27/2013,11/27/2002
+127,Diazepam,200 mg,Oral,Merck,12/18/2004,07/06/1986
+128,Gabapentin,5 mg,Oral,Purdue Pharma,03/24/1974,02/18/2018
+129,Tretinoin,200 mg,Oral,Apotex,09/20/2011,06/11/2005
+130,Gabapentin,40 mg,Intravenous,AstraZeneca,12/08/1998,12/29/2003
+131,Oseltamivir,5 mg,Oral,GlaxoSmithKline,04/15/2013,06/21/1996
+132,Celecoxib,5 mg,Oral,Apotex,02/24/2004,02/16/2017
+133,Aspirin,200 mg,Oral,Eisai,12/24/1985,11/08/1975
+134,Aspirin,200 IU,Oral,Merck,05/25/1998,11/01/1987
+135,Carbidopa-Levodopa,10 mg,Oral,Pfizer,04/29/1980,07/08/1971
+136,Finasteride,0.05%,Intramuscular,Teva,08/20/2023,04/30/1995
+137,Lansoprazole,0.05%,Oral,Pfizer,09/15/1989,10/05/1997
+138,Epinephrine,200 mg,Intranasal,Bayer,04/22/2018,08/01/2014
+139,Azithromycin,300 mg,Oral,GlaxoSmithKline,01/25/2022,02/24/1975
+140,Furosemide,200 mg,Oral,Abbott,08/12/2009,12/10/2005
+141,Metoprolol,25 mg,Oral,Bayer,04/17/1974,03/30/2022
+142,Clobetasol,10 mg,Oral,Allergan,03/02/1996,07/28/1990
+143,Silver sulfadiazine,70 mg,Oral,Merck,08/03/1993,08/04/2001
+144,Tylenol,300 mg,Oral,Takeda,10/17/1991,12/26/1986
+145,Gabapentin,50 mg,Oral,GlaxoSmithKline,03/30/2012,07/21/1982
+146,Tylenol,81 mg,Intravenous,Amgen,05/22/1977,08/04/1997
+147,Enalapril,70 mg,Oral,Eisai,11/24/2008,09/30/1999
+148,Lithium,200 mg,Oral,Novartis,05/31/1999,10/30/2002
+149,Oxycodone,0.05%,Subcutaneous,Boehringer Ingelheim,11/28/1989,04/10/1993
+150,Enalapril,10 mg,Oral,Pfizer,12/19/1973,08/01/1971
+151,Aspirin,0.05%,Oral,Gilead,03/17/2011,09/24/2019
+152,Carbidopa-Levodopa,200 mg,Oral,Pfizer,08/30/2008,11/26/2006
+153,Metoprolol,500 mg,Oral,Sun Pharmaceutical,12/30/2011,01/10/1981
+154,Etanercept,81 mg,Oral,Pfizer,04/19/1974,03/05/2016
+155,Morphine,20 mg,Oral,Merck,12/06/2009,08/14/1996
+156,Amitriptyline,0.05%,Oral,Mylan,11/20/2003,11/17/1991
+157,Fentanyl,0.05%,Oral,Johnson & Johnson,01/01/1996,03/05/1993
+158,Tretinoin,200 mg,Oral,Pfizer,03/04/2002,04/01/1989
+159,Methotrexate,25 mg / 100 mg,Oral,Boehringer Ingelheim,03/16/2003,03/04/2005
+160,Omeprazole,50 IU / kg,Oral,Sanofi,10/12/1984,05/06/1999
+161,Temazepam,20 mg,Intramuscular,Johnson & Johnson,04/05/2016,09/14/1997
+162,Epinephrine,25 mg,Oral,Novartis,11/26/1976,12/10/1993
+163,Atorvastatin,50 IU / kg,Subcutaneous,Pfizer,07/18/1974,09/22/1999
+164,Hydrocolloid dressings,500 mg,Oral,Pfizer,09/05/1979,10/01/1986
+165,Finasteride,25 mg,Oral,Bayer,12/19/1996,10/08/1978
+166,Citalopram,50 IU / kg,Topical,Merck,09/03/2016,12/05/2001
+167,Cyclophosphamide,300 mg,Oral,Merck,06/20/2016,11/04/1985
+168,Lisinopril,50 mcg / inhalation,Oral,Gilead,01/13/2006,08/26/2014
+169,Donepezil,10 units,Topical,Apotex,03/02/1979,08/08/2020
+170,Benadryl,25 mg,Oral,Allergan,07/28/1993,08/05/2013
+171,Silver sulfadiazine,200 mg,Oral,Merck,12/26/1983,09/05/1997
+172,Tylenol,500 mg,Intramuscular,Pfizer,03/08/1972,11/28/2002
+173,Warfarin,200 mg,Oral,Sanofi,04/03/1987,11/17/2019
+174,Melatonin,300 mg,Oral,Bayer,11/16/1972,04/28/2012
+175,Levothyroxine,500 mg,Intravenous,Gilead,04/02/1979,03/09/1981
+176,Fentanyl,10 mg,Oral,Amgen,07/10/2004,04/06/2021
+177,Atorvastatin,200 mg,Oral,Apotex,09/01/1982,10/09/1985
+178,Silver sulfadiazine,300 mg,Intranasal,Pfizer,10/11/1996,04/22/2005
+179,Lithium,50 mg,Oral,Merck,10/03/2016,06/19/1971
+180,Warfarin,20 mg,Oral,Novartis,12/05/2005,03/10/1979
+181,Amlodipine,10 mg,Topical,Bayer,01/06/1983,06/15/1973
+182,Aspirin,5 mg,Intramuscular,Pfizer,02/17/2024,11/24/1995
+183,Fluoxetine,200 mg,Oral,Johnson & Johnson,06/16/2019,10/17/1985
+184,Aspirin,500 mg,Intramuscular,Novo Nordisk,04/28/2018,03/23/2018
+185,Clobetasol,50 mcg,Oral,Pfizer,07/26/1976,05/05/1990
+186,Paracetamol,10 mg,Oral,Johnson & Johnson,10/16/1991,09/22/1976
+187,Aspirin,500 mg,Topical,Teva,08/18/1999,03/02/1986
+188,Citalopram,90 mcg / inhalation,Oral,Boehringer Ingelheim,05/28/2012,02/28/1980
+189,Azithromycin,90 mcg / inhalation,Oral,Sun Pharmaceutical,07/16/1980,12/03/1977
+190,Tamoxifen,20 mg,Topical,Pfizer,10/14/1981,08/09/2000
+191,Ibuprofen,5 mg,Oral,Pfizer,10/01/1991,08/01/1971
+192,Ciprofloxacin,300 mg,Oral,Pfizer,04/12/1977,05/25/2005
+193,Gabapentin,5 mg,Oral,Teva,08/19/1977,08/30/2012
+194,Etanercept,50 mcg,Oral,Johnson & Johnson,06/16/1996,01/25/2010
+195,Erythropoietin,50 mg,Intramuscular,Bayer,09/13/2016,02/17/1999
+196,Ciprofloxacin,50 mg,Oral,Sun Pharmaceutical,11/27/2016,11/08/1991
+197,Diazepam,10 mg,Oral,Merck,04/09/2024,01/10/1976
+198,Epinephrine,15 mg,Oral,Purdue Pharma,12/29/1978,10/01/1995
+199,Amitriptyline,90 mcg / inhalation,Oral,Sanofi,05/16/1983,02/04/1976
+200,Atorvastatin,81 mg,Oral,Pfizer,03/18/2004,08/20/1989
+201,Azithromycin,10 mg,Oral,Pfizer,01/11/1999,03/16/1977
+202,Tamoxifen,25 mg / 100 mg,Oral,Sanofi,02/10/1991,11/20/1980
+203,Sertraline,300 mg,Oral,Johnson & Johnson,12/12/1976,06/21/2015
+204,Finasteride,200 mg,Intranasal,Bayer,12/11/2019,01/31/2009
+205,Furosemide,5 mg,Oral,Merck,02/14/1976,04/24/2007
+206,Levothyroxine,15 mg,Subcutaneous,Novartis,12/13/2013,02/03/1982
+207,Atorvastatin,10 mg,Oral,Amgen,07/29/2006,09/22/2013
+208,Diazepam,200 mg,Oral,Bayer,10/31/1991,07/19/2019
+209,Tretinoin,90 mcg / inhalation,Oral,Merck,12/17/1994,02/23/1992
+210,Fluticasone,20 mg,Oral,Amgen,05/10/2010,03/03/2022
+211,Benadryl,5 mg,Subcutaneous,Merck,11/18/1991,07/25/2018
+212,Tylenol,300 mg,Oral,Boehringer Ingelheim,08/27/1971,02/05/1984
+213,Alendronate,50 mg,Oral,Apotex,03/12/2008,10/04/2000
+214,Timolol,10 mg,Oral,Merck,06/30/1993,12/01/1974
+215,Albuterol,500 mg,Oral,Novartis,05/13/1990,04/27/1995
+216,Carbidopa-Levodopa,40 mg,Oral,Teva,11/18/1987,03/23/2012
+217,Temazepam,10 mg,Oral,Pfizer,01/04/1977,05/07/2003
+218,Fluticasone,0.05%,Oral,Merck,06/02/1995,03/29/2006
+219,Fluoxetine,81 mg,Oral,AstraZeneca,04/15/2011,03/11/2018
+220,Atorvastatin,70 mg,Oral,Teva,12/15/2020,09/06/2020
+221,Calcitonin,500 mg,Oral,Merck,01/25/1975,03/20/2012
+222,Oxycodone,25 mg,Oral,Apotex,06/17/2013,08/16/1994
+223,Gabapentin,90 mcg / inhalation,Oral,Merck,01/01/2002,07/30/2008
+224,Fentanyl,500 mg,Oral,AstraZeneca,07/19/1987,03/05/1998
+225,Temazepam,500 mg,Oral,Gilead,11/05/2009,06/13/2012
+226,Hydrocolloid dressings,5 mg,Oral,Merck,03/15/1983,10/30/2011
+227,Atorvastatin,300 mg,Oral,Johnson & Johnson,07/30/1988,08/09/1995
+228,Lisinopril,0.05%,Subcutaneous,Pfizer,10/27/2008,12/02/1991
+229,Clobetasol,81 mg,Oral,Pfizer,03/29/2005,09/07/1985
+230,Alendronate,10 mg,Oral,Boehringer Ingelheim,02/09/2004,10/14/2014
+231,Azithromycin,25 mg / 100 mg,Oral,Gilead,12/24/1993,09/11/2005
+232,Warfarin,70 mg,Oral,Bayer,07/02/1989,11/22/2009
+233,Timolol,25 mg,Oral,Merck,10/07/2012,11/16/2014
+234,Metoprolol,500 mg,Oral,Takeda,12/15/1998,09/09/1997
+235,Paracetamol,200 mg,Oral,Bayer,06/13/1998,08/13/2020
+236,Carbidopa-Levodopa,70 mg,Oral,Pfizer,09/27/2009,09/20/2022
+237,Donepezil,25 mg,Oral,Purdue Pharma,01/09/1989,04/05/2006
+238,Enalapril,40 mg,Intranasal,Novartis,09/03/1971,07/31/1973
+239,Clobetasol,10 units,Oral,Takeda,03/25/1991,05/24/1978
+240,Atorvastatin,200 IU,Intranasal,GlaxoSmithKline,10/10/1992,09/16/1979
+241,Epinephrine,500 mg,Intravenous,Teva,05/21/2011,11/23/1988
+242,Erythropoietin,500 mg,Oral,Pfizer,11/11/1999,07/20/1996
+243,Hydrocolloid dressings,10 units,Oral,GlaxoSmithKline,12/22/1995,02/19/2016
+244,Aspirin,500 mg,Oral,Merck,07/19/2016,06/02/1988
+245,Amitriptyline,300 mg,Subcutaneous,Novo Nordisk,05/19/1998,07/02/2009
+246,Fluoxetine,5 mg,Subcutaneous,Merck,08/25/2015,11/26/1989
+247,Melatonin,300 mg,Oral,Johnson & Johnson,08/23/2006,08/01/2016
+248,Citalopram,10 mg,Oral,Pfizer,08/13/2011,07/13/2019
+249,Furosemide,10 units,Oral,Bayer,10/15/1992,11/20/2012
+250,Amoxicillin,0.05%,Oral,Johnson & Johnson,04/22/1989,05/21/2021
+251,Temazepam,200 mg,Oral,Purdue Pharma,08/24/2013,08/30/2016
+252,Hydrocolloid dressings,81 mg,Oral,Sun Pharmaceutical,01/21/2015,02/26/2007
+253,Insulin,300 mg,Oral,Teva,11/23/2022,03/02/2022
+254,Lansoprazole,500 mg,Oral,Eisai,09/26/2015,04/17/1991
+255,Furosemide,50 IU / kg,Oral,Pfizer,04/20/1983,08/22/2000
+256,Amlodipine,300 mg,Oral,Pfizer,12/22/1976,09/29/2004
+257,Atorvastatin,90 mcg / inhalation,Oral,Merck,01/10/1996,12/23/2016
+258,Omeprazole,5 mg,Intravenous,Boehringer Ingelheim,09/20/1985,01/07/2000
+259,Omeprazole,50 mcg,Oral,Pfizer,03/24/1977,05/29/2004
+260,Timolol,90 mcg / inhalation,Subcutaneous,Sanofi,03/23/2000,07/03/1985
+261,Furosemide,10 units,Oral,GlaxoSmithKline,05/02/1995,06/17/1977
+262,Warfarin,50 mg,Oral,Boehringer Ingelheim,04/04/2014,10/09/1973
+263,Advil,50 mcg / inhalation,Oral,Merck,04/14/2006,01/01/1985
+264,Albuterol,5 mg,Oral,Bayer,07/06/2010,07/16/2012
+265,Lansoprazole,40 mg,Topical,Merck,02/14/1976,02/15/1986
+266,Angiotensin inhibitors,200 mg,Intravenous,Bayer,01/15/2024,10/28/2000
+267,Amitriptyline,200 IU,Oral,Novartis,12/27/1988,05/17/1977
+268,Advil,200 IU,Oral,Novartis,09/26/1998,01/02/1975
+269,Erythropoietin,5 mg,Oral,Merck,10/28/2024,02/26/2007
+270,Losartan,300 mg,Oral,Bayer,07/15/1978,12/06/2022
+271,Methotrexate,300 mg,Oral,Pfizer,05/18/2012,08/27/2013
+272,Metoprolol,200 mg,Intravenous,Boehringer Ingelheim,06/08/2013,11/22/2023
+273,Gabapentin,20 mg,Oral,Pfizer,06/29/2011,11/14/2021
+274,Melatonin,0.05%,Oral,Bayer,06/19/2008,11/04/2010
+275,Carbidopa-Levodopa,81 mg,Oral,Pfizer,07/07/2003,01/18/2025
+276,Ibuprofen,500 mg,Oral,AstraZeneca,06/13/1986,04/01/1987
+277,Gabapentin,25 mg / 100 mg,Oral,Bayer,04/02/2010,11/16/1987
+278,Sertraline,500 mg,Oral,Novartis,03/17/1989,06/29/2022
+279,Azithromycin,50 mcg,Oral,Bayer,11/25/2006,12/25/1989
+280,Cyclophosphamide,50 mcg / inhalation,Subcutaneous,Bayer,12/31/2003,11/05/1982
+281,Atorvastatin,5 mg,Oral,Merck,12/06/2022,10/17/2015
+282,Statins,500 mg,Oral,Allergan,05/04/2021,11/30/1981
+283,Citalopram,500 mg,Oral,Pfizer,03/10/1986,06/11/1997
+284,Latanoprost,50 mg,Intravenous,Novartis,04/02/1977,05/22/1985
+285,Metformin,300 mg,Oral,Johnson & Johnson,10/07/1995,12/02/1974
+286,Lisinopril,20 mg,Oral,Merck,08/01/1991,11/17/1989
+287,Lansoprazole,200 mg,Oral,Apotex,04/06/2005,01/18/2001
+288,Aspirin,0.05%,Oral,Abbott,01/16/1983,02/22/2020
+289,Donepezil,81 mg,Oral,Sanofi,09/06/2016,12/30/2024
+290,Aspirin,15 mg,Oral,Novo Nordisk,04/16/2010,10/09/2004
+291,Melatonin,500 mg,Oral,Sun Pharmaceutical,11/04/1975,04/29/1971
+292,Azithromycin,200 mg,Intramuscular,Pfizer,10/09/1981,08/09/2021
+293,Morphine,300 mg,Oral,Pfizer,11/20/1991,08/25/1985
+294,Calcitonin,300 mg,Oral,Pfizer,04/19/1989,04/11/2022
+295,Temazepam,50 mg,Oral,Pfizer,09/27/1977,02/25/1974
+296,Lisinopril,50 mcg,Oral,AstraZeneca,02/08/2001,08/18/2020
+297,Tretinoin,300 mg,Oral,Gilead,12/12/1998,05/10/2005
+298,Hydroxychloroquine,300 mg,Oral,Merck,12/19/2018,08/27/2018
+299,Iron Supplements,10 units,Oral,Merck,02/06/1997,05/13/2004
+300,Erythropoietin,300 mg,Intravenous,Takeda,10/13/2002,09/15/1997
+301,Amitriptyline,50 mg,Intravenous,Merck,04/22/1977,10/09/1971
+302,Ciprofloxacin,70 mg,Oral,Novo Nordisk,04/12/2015,04/02/1987
+303,Piracetam,200 IU,Oral,Pfizer,10/12/1993,06/21/2004
+304,Statins,0.05%,Oral,Pfizer,05/21/2008,10/15/1979
+305,Lansoprazole,50 mcg,Oral,Apotex,07/15/2003,05/21/1995
+306,Temazepam,81 mg,Oral,GlaxoSmithKline,05/17/2020,01/26/2020
+307,Metoprolol,20 mg,Oral,Merck,11/13/1983,11/18/1993
+308,Fluticasone,5 mg,Oral,Bayer,08/11/2018,12/15/2006
+309,Gabapentin,5 mg,Topical,Abbott,01/13/2010,04/18/1981
+310,Fluoxetine,90 mcg / inhalation,Oral,Novartis,02/09/1984,03/17/2012
+311,Oseltamivir,20 mg,Oral,Bayer,01/01/1981,04/21/2000
+312,Celecoxib,90 mcg / inhalation,Oral,Sanofi,03/23/2019,09/14/2014
+313,Furosemide,20 mg,Oral,Merck,05/30/1984,09/20/2024
+314,Cyclobenzaprine,70 mg,Oral,Takeda,07/15/2019,08/31/2000
+315,Albuterol,50 mg,Oral,GlaxoSmithKline,07/23/2001,11/05/2017
+316,Insulin,81 mg,Oral,Boehringer Ingelheim,11/03/1997,09/18/1984
+317,Methotrexate,25 mg / 100 mg,Oral,Gilead,09/22/2000,04/27/1975
+318,Omeprazole,300 mg,Topical,Pfizer,12/31/1998,01/31/2024
+319,Ciprofloxacin,10 mg,Oral,Bayer,05/20/2002,10/29/1999
+320,Ibuprofen,15 mg,Oral,Amgen,07/21/2021,05/17/2020
+321,Azithromycin,5 mg,Topical,Novo Nordisk,10/14/1985,09/20/2000
+322,Losartan,40 mg,Topical,Sanofi,09/13/1985,06/22/1993
+323,Methotrexate,90 mcg / inhalation,Oral,Merck,03/27/1973,05/08/1990
+324,Amoxicillin,15 mg,Oral,Merck,04/15/1973,06/15/2005
+325,Lithium,40 mg,Subcutaneous,Merck,11/06/1973,10/11/1975
+326,Carbidopa-Levodopa,25 mg,Oral,Gilead,12/30/1994,02/25/1985
+327,Methotrexate,15 mg,Oral,Purdue Pharma,05/14/2018,05/01/1971
+328,Ciprofloxacin,50 mg,Oral,Sanofi,04/16/1998,10/27/2007
+329,Diazepam,40 mg,Oral,Pfizer,07/27/1973,10/15/1971
+330,Lansoprazole,90 mcg / inhalation,Oral,Pfizer,07/26/2014,06/30/1971
+331,Gabapentin,10 units,Oral,Novartis,09/24/1995,02/13/2014
+332,Methotrexate,200 mg,Oral,Merck,06/09/2000,07/10/1981
+333,Gabapentin,5 mg,Oral,Merck,06/04/1986,06/28/2021
+334,Metformin,0.05%,Oral,Pfizer,05/16/1981,09/11/2022
+335,Etanercept,10 units,Oral,Pfizer,12/10/2022,09/11/1981
+336,Fluticasone,200 mg,Oral,Mylan,01/26/2016,02/10/2020
+337,Fluoxetine,5 mg,Oral,Gilead,05/27/1994,02/16/2012
+338,Beta blockers,500 mg,Oral,Johnson & Johnson,08/26/1977,04/24/2004
+339,Celecoxib,300 mg,Oral,AstraZeneca,05/15/1985,01/02/2016
+340,Temazepam,0.05%,Oral,Pfizer,09/17/2000,08/16/2007
+341,Fluoxetine,40 mg,Oral,GlaxoSmithKline,02/21/1984,03/24/1988
+342,Aspirin,50 mg,Oral,Merck,03/25/1975,11/27/1993
+343,Morphine,500 mg,Oral,Pfizer,02/07/2023,04/14/1986
+344,Latanoprost,200 mg,Oral,Novo Nordisk,01/26/2022,12/09/2006
+345,Donepezil,300 mg,Intramuscular,Gilead,11/15/2001,10/19/2019
+346,Multivitamins,300 mg,Oral,Boehringer Ingelheim,06/03/1979,10/20/2016
+347,Fluoxetine,5 mg,Intravenous,Abbott,11/04/2016,07/14/2004
+348,Calcitonin,5 mg,Oral,Merck,01/22/2012,03/28/2022
+349,Etanercept,200 mg,Oral,Sanofi,12/08/2002,08/17/1977
+350,Angiotensin inhibitors,10 mg,Oral,Sun Pharmaceutical,04/26/2001,05/21/1990
+351,Morphine,500 mg,Oral,GlaxoSmithKline,04/08/1984,04/01/2002
+352,Metoprolol,5 mg,Oral,Sun Pharmaceutical,07/10/1993,03/09/2018
+353,Angiotensin inhibitors,50 mg,Oral,Merck,09/17/2022,08/24/1984
+354,Temazepam,50 mg,Oral,Mylan,09/05/1971,08/02/1989
+355,Cyclobenzaprine,5 mg,Oral,Abbott,12/26/2011,07/19/2005
+356,Aspirin,300 mg,Intravenous,Teva,10/20/2022,05/02/2002
+357,Lisinopril,10 mg,Oral,Pfizer,05/23/1990,03/25/2003
+358,Paracetamol,25 mg,Oral,Sun Pharmaceutical,09/19/2007,11/21/1990
+359,Tretinoin,70 mg,Oral,GlaxoSmithKline,03/07/2005,04/18/1996
+360,Celecoxib,50 IU / kg,Intravenous,Boehringer Ingelheim,12/09/2018,11/11/2024
+361,Lansoprazole,200 mg,Oral,AstraZeneca,01/13/1991,09/22/2011
+362,Albuterol,50 mg,Intravenous,Amgen,02/26/1993,10/06/1997
+363,Metoprolol,50 IU / kg,Topical,Takeda,07/03/1994,12/20/1999
+364,Tretinoin,20 mg,Intravenous,Sanofi,04/17/2004,06/17/1989
+365,Epinephrine,300 mg,Oral,Bayer,04/11/2010,01/14/1978
+366,Morphine,50 mcg / inhalation,Oral,Bristol-Myers Squibb,05/12/1974,11/07/1991
+367,Temazepam,500 mg,Oral,Johnson & Johnson,11/21/1977,01/26/1978
+368,Lansoprazole,70 mg,Oral,Boehringer Ingelheim,07/15/1971,05/28/1986
+369,Lithium,200 mg,Intravenous,Novo Nordisk,12/04/2001,02/10/1980
+370,Levothyroxine,5 mg,Oral,Bayer,02/24/1983,12/17/2001
+371,Celecoxib,10 mg,Intravenous,Merck,03/20/2012,10/23/2007
+372,Clobetasol,500 mg,Oral,Allergan,12/24/2014,05/09/2008
+373,Metoprolol,50 mcg,Topical,Boehringer Ingelheim,01/19/1998,02/19/2005
+374,Metoprolol,81 mg,Oral,Bayer,11/30/1983,07/06/2006
+375,Amoxicillin,50 IU / kg,Oral,Merck,05/08/1999,10/26/1980
+376,Statins,15 mg,Oral,Bayer,10/16/2021,12/18/1981
+377,Carbidopa-Levodopa,70 mg,Intravenous,Boehringer Ingelheim,07/03/2020,05/01/2000
+378,Citalopram,200 mg,Oral,Bayer,11/27/1981,11/10/2020
+379,Diazepam,500 mg,Oral,Pfizer,03/01/2024,01/13/1972
+380,Melatonin,300 mg,Oral,Sun Pharmaceutical,03/27/1982,12/21/1974
+381,Gabapentin,300 mg,Oral,Takeda,10/07/2016,02/18/1995
+382,Losartan,81 mg,Oral,Mylan,12/19/2002,04/18/1977
+383,Gabapentin,0.05%,Oral,Johnson & Johnson,08/31/1978,03/19/1975
+384,Statins,50 mcg / inhalation,Oral,GlaxoSmithKline,12/01/1983,05/29/2021
+385,Gabapentin,500 mg,Oral,Purdue Pharma,10/12/1995,06/21/2006
+386,Alendronate,10 mg,Oral,Merck,06/06/1999,07/22/1995
+387,Fluoxetine,0.05%,Oral,Bayer,06/15/2011,10/19/1991
+388,Omega-3 supplements,50 IU / kg,Oral,Merck,05/11/1982,09/25/2017
+389,Gabapentin,81 mg,Oral,Merck,09/01/2001,05/29/1979
+390,Finasteride,500 mg,Oral,Novo Nordisk,03/20/1978,06/17/2012
+391,Erythropoietin,20 mg,Intranasal,Allergan,06/26/1990,10/22/2002
+392,Lansoprazole,50 mg,Oral,Pfizer,09/02/1991,04/28/2013
+393,Insulin,50 mcg,Topical,Pfizer,11/06/1980,12/01/1999
+394,Alendronate,50 mg,Oral,Johnson & Johnson,10/14/2019,03/19/1977
+395,Amitriptyline,50 mg,Oral,Novartis,07/15/2009,08/01/2024
+396,Lisinopril,500 mg,Oral,Pfizer,04/17/2020,01/09/2006
+397,Sertraline,200 IU,Topical,Pfizer,10/24/2001,03/25/1976
+398,Beta blockers,50 mg,Oral,Novartis,06/29/1976,01/10/1984
+399,Enalapril,40 mg,Oral,Merck,02/01/1986,06/23/1992
+400,Ibuprofen,0.05%,Oral,Pfizer,12/08/2018,06/03/1990
+401,Finasteride,40 mg,Oral,Bayer,09/08/1989,03/15/1999
+402,Diazepam,500 mg,Oral,GlaxoSmithKline,03/21/1983,12/19/2001
+403,Amoxicillin,40 mg,Oral,Bayer,09/04/2009,01/03/2006
+404,Erythropoietin,300 mg,Oral,Pfizer,08/25/2006,09/25/1971
+405,Albuterol,50 mcg / inhalation,Subcutaneous,Bristol-Myers Squibb,02/18/2009,09/20/2004
+406,Albuterol,20 mg,Oral,Johnson & Johnson,06/26/2002,06/30/1989
+407,Benadryl,10 mg,Subcutaneous,Pfizer,11/12/2007,07/29/1984
+408,Aspirin,5 mg,Oral,Pfizer,01/25/1990,01/30/2011
+409,Hydrocolloid dressings,70 mg,Oral,Bayer,09/19/2008,03/03/1976
+410,Melatonin,25 mg,Oral,Sun Pharmaceutical,01/09/1992,04/09/1972
+411,Donepezil,90 mcg / inhalation,Oral,Merck,11/16/1974,10/19/2007
+412,Fluoxetine,25 mg / 100 mg,Intravenous,Bayer,02/04/1993,07/12/2017
+413,Oseltamivir,300 mg,Oral,Gilead,11/18/1994,03/05/1996
+414,Furosemide,300 mg,Oral,Pfizer,04/19/2012,01/17/1982
+415,Atorvastatin,15 mg,Oral,Pfizer,02/18/1977,11/04/2007
+416,Morphine,300 mg,Oral,Bristol-Myers Squibb,01/20/1992,02/08/1977
+417,Hydroxychloroquine,20 mg,Oral,Novartis,01/22/1987,09/01/1983
+418,Hydroxychloroquine,50 mcg / inhalation,Oral,Gilead,03/28/2020,09/24/2012
+419,Aspirin,50 mg,Oral,Sanofi,02/22/1998,07/25/2001
+420,Omeprazole,500 mg,Oral,Takeda,04/18/1980,06/14/2012
+421,Tamoxifen,500 mg,Oral,Sanofi,11/20/2008,09/18/1983
+422,Fluticasone,0.05%,Oral,Novartis,05/01/2015,07/12/2008
+423,Latanoprost,10 mg,Oral,Pfizer,09/15/1978,02/23/1992
+424,Lansoprazole,300 mg,Oral,Teva,03/19/1982,05/26/1975
+425,Metoprolol,20 mg,Oral,Eisai,04/28/2007,08/18/1973
+426,Temazepam,50 IU / kg,Subcutaneous,Teva,05/18/2011,02/06/1989
+427,Beta blockers,200 mg,Oral,Merck,10/28/2007,08/31/2005
+428,Warfarin,50 mcg,Oral,Pfizer,03/06/2020,12/08/2023
+429,Calcitonin,200 IU,Topical,Boehringer Ingelheim,04/10/2015,12/17/2000
+430,Lithium,50 mcg,Oral,Merck,08/18/2014,12/26/1999
+431,Enalapril,50 mg,Oral,Merck,03/27/1994,10/03/2012
+432,Temazepam,10 mg,Intravenous,Novartis,07/22/2010,03/05/2021
+433,Lansoprazole,5 mg,Oral,Boehringer Ingelheim,03/09/1979,04/13/1993
+434,Finasteride,70 mg,Oral,Sanofi,07/31/1979,09/24/1997
+435,Multivitamins,500 mg,Oral,Novartis,10/14/2015,05/20/1988
+436,Ibuprofen,50 mg,Oral,Sun Pharmaceutical,05/03/1992,09/09/2021
+437,Cyclobenzaprine,10 units,Subcutaneous,Pfizer,08/27/2024,07/21/1995
+438,Metoprolol,25 mg,Intravenous,Merck,04/02/2019,08/06/1978
+439,Lorazepam,10 mg,Intramuscular,Boehringer Ingelheim,10/06/2004,10/25/2008
+440,Etanercept,81 mg,Oral,Pfizer,11/07/2024,06/20/1984
+441,Azithromycin,5 mg,Oral,Johnson & Johnson,12/03/2016,05/27/2018
+442,Latanoprost,50 mcg,Oral,Boehringer Ingelheim,11/16/1977,12/17/2018
+443,Aspirin,15 mg,Oral,Mylan,02/11/1996,12/07/2023
+444,Ciprofloxacin,5 mg,Oral,Pfizer,08/24/2010,01/17/1980
+445,Cyclobenzaprine,5 mg,Intravenous,Pfizer,01/18/2011,10/11/2005
+446,Erythropoietin,10 mg,Oral,Novo Nordisk,02/07/2011,08/17/1980
+447,Iron Supplements,50 mg,Intramuscular,Merck,06/25/1973,04/19/1997
+448,Piracetam,40 mg,Oral,Merck,03/12/1987,04/20/2012
+449,Alendronate,500 mg,Oral,Eisai,04/28/1974,05/11/2023
+450,Melatonin,50 mcg / inhalation,Oral,Pfizer,06/28/1993,11/21/1997
+451,Statins,50 IU / kg,Oral,Merck,02/03/2007,11/13/2017
+452,Atorvastatin,200 mg,Oral,Novo Nordisk,10/13/1999,11/30/1972
+453,Iron Supplements,70 mg,Oral,Apotex,11/08/1992,12/18/1985
+454,Piracetam,500 mg,Oral,Sanofi,05/28/2023,04/27/1972
+455,Timolol,50 IU / kg,Oral,Bayer,02/23/1977,06/27/1991
+456,Donepezil,200 mg,Oral,Pfizer,01/04/2009,10/29/2014
+457,Iron Supplements,40 mg,Oral,Pfizer,07/13/2024,01/22/1993
+458,Azithromycin,500 mg,Oral,Novartis,08/05/2002,06/24/1991
+459,Celecoxib,50 mcg / inhalation,Oral,Boehringer Ingelheim,05/23/2002,05/31/2015
+460,Omeprazole,200 IU,Intravenous,Merck,10/28/1971,03/01/1992
+461,Amlodipine,25 mg,Subcutaneous,Johnson & Johnson,07/20/1980,03/12/2016
+462,Insulin,0.05%,Oral,Sun Pharmaceutical,01/06/1990,05/15/2015
+463,Omeprazole,50 mg,Intravenous,Novartis,04/10/1980,04/28/1986
+464,Temazepam,0.05%,Oral,Allergan,02/02/2025,03/21/1986
+465,Lisinopril,500 mg,Oral,Amgen,04/15/1991,01/15/2018
+466,Naloxone,90 mcg / inhalation,Oral,Merck,09/16/1988,08/27/2014
+467,Etanercept,20 mg,Oral,Sanofi,06/09/1985,04/07/1989
+468,Fluoxetine,10 units,Oral,Novo Nordisk,12/07/2001,02/21/2024
+469,Alendronate,90 mcg / inhalation,Oral,AstraZeneca,10/06/2019,01/18/2023
+470,Fluoxetine,90 mcg / inhalation,Oral,Sun Pharmaceutical,09/21/1973,07/12/2006
+471,Gabapentin,0.05%,Oral,Merck,06/24/1998,12/02/2011
+472,Piracetam,20 mg,Oral,Novartis,11/08/1989,05/20/2018
+473,Tamsulosin,500 mg,Oral,Teva,09/04/1995,06/30/1980
+474,Advil,70 mg,Topical,Merck,12/03/1976,06/14/1978
+475,Sertraline,50 mcg,Oral,Pfizer,06/18/1991,10/05/2009
+476,Cyclophosphamide,500 mg,Oral,Boehringer Ingelheim,01/29/2000,10/26/2006
+477,Benadryl,10 units,Oral,Teva,04/27/2018,06/05/2014
+478,Zyrtec,70 mg,Topical,Gilead,04/19/1982,07/30/1998
+479,Atorvastatin,25 mg,Oral,Johnson & Johnson,09/24/1997,02/24/1990
+480,Statins,300 mg,Oral,Bayer,02/16/1990,09/28/2003
+481,Tamsulosin,0.05%,Oral,Pfizer,05/31/2002,08/03/2024
+482,Hydrocolloid dressings,50 mcg / inhalation,Oral,Novo Nordisk,08/16/1989,10/22/2013
+483,Silver sulfadiazine,50 mcg,Oral,Pfizer,04/06/1978,04/04/1988
+484,Latanoprost,50 IU / kg,Intravenous,Bayer,01/20/2011,09/28/2001
+485,Melatonin,50 mcg,Oral,Purdue Pharma,10/19/1992,10/04/2009
+486,Tretinoin,15 mg,Oral,Merck,02/11/1995,08/27/1978
+487,Metoprolol,300 mg,Oral,Bristol-Myers Squibb,11/08/2011,07/01/1991
+488,Hydroxychloroquine,50 mg,Oral,Merck,11/12/2012,06/09/1990
+489,Silver sulfadiazine,15 mg,Oral,Pfizer,08/07/2017,03/20/2022
+490,Celecoxib,81 mg,Oral,Merck,08/12/1970,09/04/1973
+491,Temazepam,0.05%,Oral,Boehringer Ingelheim,10/24/2021,06/24/2000
+492,Gabapentin,300 mg,Oral,AstraZeneca,12/10/1983,08/11/1985
+493,Lorazepam,5 mg,Oral,Teva,03/04/1988,03/05/2005
+494,Zyrtec,500 mg,Intravenous,Abbott,10/09/1990,08/11/2019
+495,Calcitonin,5 mg,Oral,Merck,09/19/1981,04/22/1985
+496,Calcitonin,50 mg,Oral,Merck,12/13/1988,01/14/2000
+497,Metoprolol,50 IU / kg,Oral,Merck,07/24/1973,09/29/2020
+498,Atorvastatin,200 IU,Intramuscular,Takeda,01/03/1975,12/10/1976
+499,Fluoxetine,40 mg,Oral,Merck,03/29/2004,07/08/2021
+500,Etanercept,50 mg,Oral,Merck,12/09/2017,10/07/2007
+501,Latanoprost,200 mg,Oral,Johnson & Johnson,01/10/2015,12/08/2000
+502,Amlodipine,0.05%,Oral,Johnson & Johnson,05/10/1980,07/22/1996
+503,Etanercept,50 mg,Oral,Abbott,10/17/2023,11/30/1991
+504,Amlodipine,50 mg,Oral,Abbott,01/23/2007,10/27/1988
+505,Lorazepam,50 mcg / inhalation,Oral,Merck,02/25/1989,05/08/1985
+506,Aspirin,15 mg,Oral,Novartis,09/04/1994,02/19/2021
+507,Tamsulosin,25 mg,Oral,Pfizer,10/10/2003,12/25/1989
+508,Sertraline,200 IU,Oral,Johnson & Johnson,07/24/1986,10/15/1986
+509,Omeprazole,10 units,Intranasal,Bristol-Myers Squibb,11/14/1996,11/08/1983
+510,Melatonin,15 mg,Oral,Sun Pharmaceutical,11/04/2004,05/31/1992
+511,Fluoxetine,0.05%,Oral,Boehringer Ingelheim,12/15/1992,03/11/1979
+512,Calcitonin,20 mg,Oral,Teva,03/25/1988,08/20/1981
+513,Sertraline,81 mg,Oral,AstraZeneca,02/03/2006,08/08/2018
+514,Diazepam,10 mg,Oral,Merck,04/08/1999,01/26/2006
+515,Carbidopa-Levodopa,20 mg,Intranasal,Bayer,09/06/1991,04/14/1992
+516,Oxycodone,10 mg,Oral,Pfizer,06/25/1989,08/07/1983
+517,Omeprazole,10 mg,Oral,Novartis,06/08/1973,11/13/2008
+518,Aspirin,5 mg,Oral,Bayer,06/20/2023,10/10/1989
+519,Furosemide,15 mg,Oral,Pfizer,10/25/1978,11/19/2008
+520,Erythropoietin,40 mg,Oral,GlaxoSmithKline,10/04/1997,09/04/2003
+521,Timolol,10 mg,Oral,Bayer,10/01/1971,05/02/1977
+522,Erythropoietin,70 mg,Oral,GlaxoSmithKline,10/09/2000,07/28/2009
+523,Tamoxifen,50 mg,Oral,Johnson & Johnson,04/20/1983,06/22/1992
+524,Hydrocolloid dressings,200 IU,Intravenous,Merck,02/14/1972,08/04/1973
+525,Ciprofloxacin,50 mg,Oral,Bristol-Myers Squibb,08/11/1974,02/01/1992
+526,Methotrexate,25 mg,Oral,Pfizer,12/17/2004,04/27/1996
+527,Naloxone,81 mg,Oral,Merck,06/12/2000,06/28/2022
+528,Benadryl,200 mg,Oral,Pfizer,02/06/1980,01/07/2004
+529,Fluoxetine,300 mg,Oral,Pfizer,09/15/1978,01/27/1974
+530,Celecoxib,500 mg,Oral,Merck,01/18/1995,09/18/2022
+531,Carbidopa-Levodopa,200 mg,Oral,Teva,01/29/2024,07/26/2002
+532,Paracetamol,25 mg,Oral,Boehringer Ingelheim,10/24/1972,05/21/2004
+533,Angiotensin inhibitors,50 mg,Oral,Teva,03/08/1990,01/30/2022
+534,Erythropoietin,50 IU / kg,Oral,Pfizer,12/05/1983,09/18/1981
+535,Finasteride,50 mcg / inhalation,Topical,Merck,12/17/2014,10/03/1975
+536,Amoxicillin,15 mg,Topical,Allergan,03/19/1992,05/21/2019
+537,Piracetam,5 mg,Topical,Bayer,12/15/2019,10/23/1971
+538,Lorazepam,70 mg,Oral,Boehringer Ingelheim,09/14/2022,09/24/1992
+539,Cyclophosphamide,5 mg,Oral,Bayer,12/02/2010,03/02/1978
+540,Temazepam,50 mcg / inhalation,Oral,Pfizer,10/15/2008,09/12/2003
+541,Lorazepam,50 mcg / inhalation,Oral,Pfizer,04/17/1977,08/28/2005
+542,Fluoxetine,90 mcg / inhalation,Oral,Boehringer Ingelheim,06/13/1988,05/12/1976
+543,Epinephrine,5 mg,Oral,Novo Nordisk,03/17/2015,11/24/1991
+544,Oxycodone,20 mg,Oral,Bayer,07/22/1996,10/25/1988
+545,Paracetamol,25 mg / 100 mg,Intranasal,Gilead,06/26/2015,10/14/1981
+546,Piracetam,300 mg,Oral,Mylan,07/31/1982,01/20/2022
+547,Latanoprost,90 mcg / inhalation,Intravenous,Sanofi,12/16/1990,11/11/2019
+548,Calcitonin,50 mg,Oral,Pfizer,01/23/1978,02/01/1991
+549,Cyclophosphamide,50 mg,Oral,Teva,10/02/2001,10/31/1999
+550,Albuterol,200 mg,Oral,Novo Nordisk,11/28/1985,01/14/1999
+551,Oxycodone,200 mg,Oral,Johnson & Johnson,01/21/2013,09/03/2016
+552,Amitriptyline,5 mg,Oral,Apotex,05/30/2024,03/30/1994
+553,Metoprolol,10 mg,Oral,AstraZeneca,09/21/1991,06/08/1999
+554,Methotrexate,70 mg,Oral,Sun Pharmaceutical,10/20/2010,09/08/2015
+555,Omeprazole,10 units,Oral,Pfizer,04/24/1989,07/01/1989
+556,Erythropoietin,200 mg,Oral,Merck,10/17/1987,07/18/1972
+557,Amoxicillin,10 mg,Oral,GlaxoSmithKline,07/07/2022,06/10/2020
+558,Alendronate,200 mg,Oral,Merck,01/11/2017,11/06/1978
+559,Alendronate,200 mg,Oral,Bayer,10/25/2024,01/09/2022
+560,Hydroxychloroquine,10 mg,Topical,Pfizer,11/14/1976,01/01/2019
+561,Metoprolol,50 IU / kg,Oral,Pfizer,10/13/1971,12/29/2005
+562,Clobetasol,5 mg,Topical,Johnson & Johnson,05/14/2000,08/17/1998
+563,Angiotensin inhibitors,200 mg,Intravenous,Boehringer Ingelheim,02/05/1979,04/04/2020
+564,Oxycodone,20 mg,Topical,Novo Nordisk,12/29/2022,12/15/1998
+565,Fentanyl,200 mg,Oral,Pfizer,05/11/1992,01/09/2000
+566,Warfarin,50 mcg,Intravenous,Merck,08/13/2002,08/06/2022
+567,Donepezil,200 mg,Oral,Merck,07/27/1978,10/27/2017
+568,Hydroxychloroquine,50 mcg / inhalation,Oral,Merck,04/29/1971,10/14/2022
+569,Diazepam,500 mg,Oral,Pfizer,02/07/2018,09/28/2013
+570,Aspirin,500 mg,Oral,Pfizer,09/27/1991,06/24/2012
+571,Melatonin,25 mg,Oral,Allergan,06/12/2017,12/23/2006
+572,Erythropoietin,5 mg,Oral,Novo Nordisk,08/09/1978,05/13/1983
+573,Advil,300 mg,Intramuscular,Sun Pharmaceutical,10/21/2022,05/09/2014
+574,Temazepam,300 mg,Oral,GlaxoSmithKline,01/19/2009,12/23/2022
+575,Lisinopril,500 mg,Oral,Merck,10/26/1972,10/11/1974
+576,Cyclobenzaprine,0.05%,Oral,Bristol-Myers Squibb,11/17/1974,11/17/1978
+577,Sertraline,200 mg,Oral,Gilead,03/23/2013,05/09/1983
+578,Iron Supplements,81 mg,Oral,Pfizer,12/05/2015,05/15/2021
+579,Amoxicillin,50 mcg,Intravenous,Merck,08/05/2019,02/23/1993
+580,Donepezil,500 mg,Oral,Amgen,12/30/2007,10/06/1997
+581,Temazepam,10 units,Oral,Merck,08/24/2010,02/16/1973
+582,Ciprofloxacin,90 mcg / inhalation,Oral,Johnson & Johnson,08/12/1981,05/10/2007
+583,Azithromycin,0.05%,Oral,Apotex,12/10/2007,04/15/1971
+584,Omega-3 supplements,40 mg,Oral,Boehringer Ingelheim,10/03/2014,12/29/1993
+585,Clobetasol,70 mg,Topical,Eisai,09/22/1987,09/24/2020
+586,Cyclobenzaprine,50 mg,Intramuscular,Teva,12/21/1996,02/22/2012
+587,Sertraline,500 mg,Oral,Pfizer,08/11/2003,01/14/1976
+588,Losartan,500 mg,Oral,Pfizer,08/31/1978,07/29/1977
+589,Carbidopa-Levodopa,5 mg,Oral,Teva,12/19/1996,08/07/1973
+590,Silver sulfadiazine,20 mg,Oral,Bayer,02/25/2020,10/13/1979
+591,Gabapentin,200 mg,Oral,Bayer,12/19/2005,12/30/1995
+592,Methotrexate,300 mg,Oral,Merck,05/17/2001,09/11/1977
+593,Losartan,10 units,Oral,Eisai,02/23/1998,10/01/2022
+594,Melatonin,70 mg,Oral,Sanofi,05/03/2021,05/07/1979
+595,Aspirin,50 mg,Oral,Bristol-Myers Squibb,03/02/1995,03/27/1992
+596,Furosemide,500 mg,Oral,Johnson & Johnson,07/26/1996,02/05/1980
+597,Aspirin,50 IU / kg,Intranasal,Boehringer Ingelheim,09/07/1987,03/23/1993
+598,Furosemide,200 mg,Oral,AstraZeneca,02/12/2020,06/14/1990
+599,Hydroxychloroquine,10 mg,Oral,Boehringer Ingelheim,12/20/2022,02/18/2008
+600,Fentanyl,5 mg,Oral,Johnson & Johnson,04/02/1981,12/03/2011
+601,Atorvastatin,15 mg,Oral,Sanofi,02/11/2009,03/01/2012
+602,Amoxicillin,200 mg,Oral,GlaxoSmithKline,04/06/1994,05/15/2011
+603,Metformin,10 mg,Oral,Merck,11/04/1977,02/07/1986
+604,Lorazepam,20 mg,Oral,Merck,02/15/1974,01/28/1979
+605,Fluticasone,25 mg / 100 mg,Subcutaneous,Pfizer,12/05/1970,07/07/2024
+606,Epinephrine,70 mg,Oral,Bayer,09/15/1993,10/06/2022
+607,Lansoprazole,10 units,Oral,Amgen,02/22/1976,04/08/1985
+608,Paracetamol,70 mg,Oral,Pfizer,05/14/2009,05/18/2021
+609,Lorazepam,500 mg,Oral,Apotex,02/05/2012,09/11/2002
+610,Etanercept,0.05%,Oral,Merck,01/24/2008,10/17/1975
+611,Aspirin,10 mg,Oral,Purdue Pharma,01/02/2012,06/27/2023
+612,Cyclophosphamide,25 mg / 100 mg,Oral,Takeda,09/05/1978,09/13/2018
+613,Erythropoietin,50 mcg,Oral,AstraZeneca,11/21/1996,12/16/1990
+614,Aspirin,5 mg,Oral,GlaxoSmithKline,07/01/1978,10/11/1993
+615,Paracetamol,0.05%,Oral,Bristol-Myers Squibb,08/31/1985,10/05/1986
+616,Fluoxetine,200 mg,Intravenous,Allergan,02/26/1992,07/05/1982
+617,Gabapentin,10 mg,Intravenous,Novartis,05/28/2010,09/27/2017
+618,Methotrexate,50 mcg / inhalation,Oral,Bayer,10/11/1976,10/24/1989
+619,Sertraline,20 mg,Oral,Johnson & Johnson,11/12/1979,03/31/2004
+620,Methotrexate,200 mg,Oral,Boehringer Ingelheim,10/03/2009,06/22/1995
+621,Sertraline,25 mg / 100 mg,Oral,Merck,06/06/1979,08/25/2012
+622,Fluticasone,50 mg,Oral,Novartis,02/12/2014,08/18/1982
+623,Morphine,300 mg,Topical,Pfizer,07/31/2005,11/25/2014
+624,Tretinoin,15 mg,Oral,Johnson & Johnson,06/30/1974,05/02/1992
+625,Metoprolol,50 mcg / inhalation,Intravenous,Johnson & Johnson,11/24/1986,04/03/2003
+626,Ibuprofen,200 mg,Oral,Bristol-Myers Squibb,08/26/1981,09/23/1988
+627,Carbidopa-Levodopa,200 mg,Oral,Pfizer,11/04/1987,03/25/2000
+628,Levothyroxine,200 mg,Oral,Pfizer,06/23/1971,06/15/1995
+629,Gabapentin,20 mg,Oral,Sanofi,03/21/2012,04/24/2005
+630,Citalopram,81 mg,Oral,Bayer,08/01/1976,05/17/1991
+631,Cyclophosphamide,10 units,Topical,Pfizer,07/14/1977,10/09/2000
+632,Tylenol,20 mg,Oral,Johnson & Johnson,03/25/1974,07/31/2011
+633,Gabapentin,200 mg,Oral,Boehringer Ingelheim,04/11/1971,08/30/1981
+634,Citalopram,300 mg,Oral,Purdue Pharma,10/13/1999,09/26/1988
+635,Melatonin,10 mg,Oral,Merck,12/04/1976,08/10/2014
+636,Cyclophosphamide,50 mcg,Oral,Allergan,04/02/2004,01/30/1980
+637,Lorazepam,300 mg,Oral,Apotex,07/04/1976,11/08/1976
+638,Metformin,81 mg,Oral,Teva,04/13/1976,01/25/1983
+639,Furosemide,90 mcg / inhalation,Oral,Novo Nordisk,07/07/1987,03/27/1995
+640,Morphine,200 mg,Oral,Sun Pharmaceutical,03/31/2019,02/18/1976
+641,Benadryl,90 mcg / inhalation,Oral,Purdue Pharma,08/13/2008,07/15/2014
+642,Carbidopa-Levodopa,81 mg,Oral,Merck,12/14/1971,01/31/1973
+643,Erythropoietin,5 mg,Oral,Johnson & Johnson,10/08/1995,05/24/1989
+644,Fentanyl,500 mg,Oral,Boehringer Ingelheim,05/28/1999,09/30/2010
+645,Erythropoietin,0.05%,Oral,Johnson & Johnson,01/18/1991,07/10/1988
+646,Lithium,40 mg,Oral,Merck,02/15/1975,07/03/2017
+647,Latanoprost,300 mg,Oral,Merck,12/14/1982,07/14/1999
+648,Ibuprofen,40 mg,Oral,Allergan,02/22/2004,08/31/2001
+649,Paracetamol,90 mcg / inhalation,Oral,Johnson & Johnson,11/03/1997,08/18/1984
+650,Tamsulosin,50 mcg / inhalation,Oral,Boehringer Ingelheim,09/01/2009,06/09/2002
+651,Fluoxetine,15 mg,Oral,Bristol-Myers Squibb,02/21/1971,07/03/2012
+652,Statins,20 mg,Oral,Bayer,04/14/1975,10/22/1989
+653,Omeprazole,500 mg,Oral,Pfizer,08/21/1973,08/14/1980
+654,Donepezil,50 IU / kg,Oral,Boehringer Ingelheim,03/30/2009,03/25/2007
+655,Gabapentin,5 mg,Topical,Boehringer Ingelheim,04/07/1972,07/26/2018
+656,Zyrtec,200 mg,Oral,Mylan,09/04/1988,01/17/1992
+657,Carbidopa-Levodopa,5 mg,Oral,Abbott,02/15/1984,10/08/2012
+658,Azithromycin,50 mcg,Subcutaneous,Teva,07/12/1982,09/30/1993
+659,Donepezil,50 mg,Oral,Boehringer Ingelheim,08/26/1987,09/07/2006
+660,Lansoprazole,50 mg,Oral,Novo Nordisk,10/29/2006,11/16/1995
+661,Levothyroxine,10 mg,Subcutaneous,Sanofi,02/24/2010,02/27/2016
+662,Furosemide,200 mg,Oral,Bayer,12/08/2003,05/08/2001
+663,Hydroxychloroquine,70 mg,Oral,Novo Nordisk,09/25/1997,07/09/1983
+664,Erythropoietin,70 mg,Oral,Teva,04/08/1993,10/06/1995
+665,Insulin,50 mcg,Intravenous,Mylan,04/22/1980,11/24/2019
+666,Angiotensin inhibitors,0.05%,Oral,Novo Nordisk,12/23/1972,04/13/1999
+667,Iron Supplements,300 mg,Subcutaneous,Pfizer,07/23/1976,04/27/1982
+668,Aspirin,25 mg,Oral,Pfizer,03/04/1996,06/13/1995
+669,Morphine,50 mg,Intramuscular,Novartis,06/20/2004,07/06/2024
+670,Citalopram,10 mg,Oral,GlaxoSmithKline,04/01/1988,09/01/2017
+671,Carbidopa-Levodopa,81 mg,Oral,Pfizer,04/12/2001,08/16/2002
+672,Beta blockers,500 mg,Oral,Allergan,08/30/1991,06/26/2006
+673,Citalopram,500 mg,Oral,Merck,03/02/2016,04/20/1984
+674,Omeprazole,0.05%,Oral,Sun Pharmaceutical,12/27/2003,12/29/2022
+675,Naloxone,10 mg,Oral,Boehringer Ingelheim,04/08/2011,09/24/1997
+676,Etanercept,20 mg,Oral,Bayer,05/01/1997,07/24/2014
+677,Melatonin,300 mg,Oral,Merck,01/11/2007,04/30/1976
+678,Fentanyl,15 mg,Oral,Pfizer,07/13/1996,09/27/2022
+679,Levothyroxine,10 mg,Oral,AstraZeneca,05/29/1992,08/26/2015
+680,Albuterol,300 mg,Oral,Merck,01/26/1983,07/31/2015
+681,Omeprazole,15 mg,Oral,Boehringer Ingelheim,10/19/2007,09/12/1980
+682,Levothyroxine,15 mg,Intramuscular,Bayer,09/30/2020,07/22/2019
+683,Methotrexate,20 mg,Oral,Johnson & Johnson,07/05/1992,02/14/1978
+684,Azithromycin,5 mg,Oral,Teva,07/17/2023,09/19/1978
+685,Amoxicillin,5 mg,Oral,Amgen,07/12/2005,11/21/1982
+686,Fentanyl,25 mg / 100 mg,Oral,Merck,01/03/2013,08/07/2015
+687,Methotrexate,0.05%,Oral,Allergan,08/12/2010,12/05/2024
+688,Iron Supplements,300 mg,Oral,Pfizer,03/23/1974,04/04/1980
+689,Azithromycin,300 mg,Oral,Mylan,11/13/1974,07/19/2000
+690,Amlodipine,5 mg,Oral,Johnson & Johnson,10/01/2010,12/05/1982
+691,Levothyroxine,300 mg,Oral,Mylan,02/06/2016,05/11/2020
+692,Donepezil,40 mg,Oral,Allergan,12/06/1978,02/14/1977
+693,Ciprofloxacin,40 mg,Oral,Pfizer,12/06/1996,02/03/2005
+694,Epinephrine,200 IU,Oral,GlaxoSmithKline,12/25/2006,06/25/2007
+695,Furosemide,15 mg,Oral,Teva,08/22/2008,07/28/2007
+696,Clobetasol,500 mg,Oral,Merck,03/24/1975,04/27/2023
+697,Finasteride,81 mg,Oral,Amgen,04/11/1986,07/05/2007
+698,Benadryl,25 mg / 100 mg,Oral,Merck,06/26/1975,12/25/2024
+699,Silver sulfadiazine,90 mcg / inhalation,Intranasal,Mylan,05/24/1971,11/29/2002
+700,Carbidopa-Levodopa,200 IU,Intranasal,Johnson & Johnson,08/15/1988,04/15/2017
+701,Fluticasone,50 mcg / inhalation,Oral,Sanofi,11/11/1999,08/30/1981
+702,Diazepam,0.05%,Oral,Novartis,07/01/1984,12/12/2012
+703,Gabapentin,50 mcg / inhalation,Oral,Pfizer,07/01/2006,05/10/2005
+704,Atorvastatin,300 mg,Oral,Pfizer,02/15/1971,12/04/2024
+705,Lorazepam,200 IU,Oral,Purdue Pharma,04/21/1997,09/05/2001
+706,Benadryl,81 mg,Oral,Purdue Pharma,02/10/2018,01/23/2023
+707,Fluoxetine,0.05%,Oral,Pfizer,03/11/1995,06/05/2021
+708,Erythropoietin,200 mg,Oral,Purdue Pharma,11/06/1984,06/17/2024
+709,Morphine,15 mg,Topical,Bristol-Myers Squibb,10/20/2018,07/29/1985
+710,Naloxone,0.05%,Oral,Merck,12/17/1986,03/12/1992
+711,Omeprazole,50 mcg / inhalation,Oral,Purdue Pharma,07/21/2021,08/19/1981
+712,Amlodipine,50 mcg / inhalation,Oral,Amgen,11/05/1980,02/15/1996
+713,Gabapentin,10 mg,Oral,Teva,07/17/1993,09/09/2008
+714,Lorazepam,200 mg,Oral,Pfizer,02/12/2014,09/07/1975
+715,Amlodipine,200 mg,Oral,Pfizer,08/02/2002,10/23/1989
+716,Sertraline,300 mg,Oral,Merck,02/18/2022,12/08/2015
+717,Alendronate,81 mg,Oral,Mylan,06/11/1974,12/01/1988
+718,Clobetasol,0.05%,Oral,Gilead,12/01/1978,01/14/1987
+719,Latanoprost,40 mg,Oral,Boehringer Ingelheim,10/25/1984,08/30/2010
+720,Morphine,5 mg,Intravenous,Pfizer,04/17/2011,06/11/2005
+721,Oxycodone,15 mg,Oral,Bayer,09/08/1975,01/10/1977
+722,Furosemide,25 mg,Intravenous,Sanofi,11/15/1977,06/20/1986
+723,Paracetamol,300 mg,Oral,Takeda,11/25/2007,07/27/1971
+724,Morphine,10 mg,Oral,Novartis,03/01/1981,07/13/2023
+725,Azithromycin,40 mg,Oral,Amgen,02/13/1988,07/26/1990
+726,Azithromycin,5 mg,Oral,Novartis,12/30/2008,07/02/2016
+727,Latanoprost,20 mg,Oral,Novo Nordisk,03/03/2015,11/17/1972
+728,Lansoprazole,300 mg,Intravenous,Johnson & Johnson,06/14/2009,03/10/1975
+729,Cyclophosphamide,200 mg,Oral,Merck,06/05/1998,11/29/1978
+730,Erythropoietin,5 mg,Oral,Mylan,11/21/1980,03/10/1976
+731,Amlodipine,10 mg,Oral,Pfizer,07/15/1989,11/01/1975
+732,Carbidopa-Levodopa,300 mg,Oral,Pfizer,03/08/2019,07/17/1992
+733,Metoprolol,200 mg,Oral,Eisai,01/25/2015,06/02/1993
+734,Metoprolol,50 IU / kg,Oral,Amgen,11/26/2013,06/01/1980
+735,Clobetasol,90 mcg / inhalation,Oral,GlaxoSmithKline,09/17/2016,08/28/1976
+736,Enalapril,10 mg,Oral,Bayer,10/03/2021,02/22/1998
+737,Melatonin,20 mg,Oral,GlaxoSmithKline,05/16/1970,06/09/1998
+738,Albuterol,5 mg,Oral,Merck,05/26/1990,06/20/1985
+739,Melatonin,5 mg,Oral,Merck,11/01/2013,10/26/2014
+740,Azithromycin,500 mg,Oral,Boehringer Ingelheim,12/04/2015,01/15/1994
+741,Omega-3 supplements,5 mg,Oral,Boehringer Ingelheim,05/03/2012,08/25/1987
+742,Gabapentin,10 units,Oral,GlaxoSmithKline,05/07/1984,06/30/1980
+743,Lansoprazole,20 mg,Oral,Boehringer Ingelheim,05/19/2010,07/03/1994
+744,Alendronate,300 mg,Oral,Boehringer Ingelheim,03/27/2019,08/25/2001
+745,Lorazepam,500 mg,Intranasal,Novartis,05/04/1980,08/04/1975
+746,Tretinoin,10 mg,Oral,Sun Pharmaceutical,06/13/2018,07/21/2004
+747,Epinephrine,200 mg,Oral,Pfizer,07/02/2015,03/12/2020
+748,Omeprazole,200 mg,Oral,Gilead,01/09/2012,02/19/1991
+749,Paracetamol,200 IU,Subcutaneous,Sanofi,01/02/2009,03/29/2007
+750,Cyclophosphamide,200 mg,Oral,Pfizer,03/24/2001,06/29/1991
+751,Lithium,90 mcg / inhalation,Oral,Johnson & Johnson,08/04/1974,01/18/1988
+752,Hydroxychloroquine,500 mg,Oral,Abbott,01/10/1990,05/16/2000
+753,Alendronate,50 mcg,Oral,Bayer,01/10/2012,03/18/1973
+754,Metoprolol,10 mg,Oral,Abbott,07/24/2012,12/23/2022
+755,Albuterol,10 mg,Oral,Johnson & Johnson,10/08/1989,05/17/1995
+756,Gabapentin,0.05%,Oral,Allergan,03/20/1977,01/28/1973
+757,Gabapentin,10 units,Oral,Sun Pharmaceutical,03/17/1997,02/28/1978
+758,Levothyroxine,500 mg,Oral,Novo Nordisk,11/13/2001,10/14/2004
+759,Lansoprazole,5 mg,Oral,Pfizer,03/12/1990,03/02/1992
+760,Sertraline,20 mg,Oral,AstraZeneca,03/18/2016,07/16/1976
+761,Citalopram,10 mg,Oral,Mylan,10/22/2009,01/26/1982
+762,Carbidopa-Levodopa,500 mg,Oral,Pfizer,02/07/1978,05/09/2006
+763,Methotrexate,0.05%,Oral,Abbott,02/22/2006,08/16/1987
+764,Metoprolol,0.05%,Oral,Allergan,08/04/2023,12/08/1996
+765,Omeprazole,10 units,Oral,Sanofi,03/20/2024,06/06/1972
+766,Amlodipine,81 mg,Intravenous,Novartis,04/05/1991,07/14/1987
+767,Advil,70 mg,Oral,Mylan,01/03/2014,11/18/1985
+768,Erythropoietin,50 mg,Oral,Mylan,01/21/1986,01/14/1991
+769,Fentanyl,0.05%,Oral,Merck,03/04/1991,08/25/1981
+770,Statins,50 mcg,Oral,Eisai,08/01/1998,06/22/1971
+771,Carbidopa-Levodopa,0.05%,Oral,Eisai,12/30/2014,11/10/1990
+772,Fentanyl,300 mg,Oral,Merck,02/06/2005,08/22/1989
+773,Atorvastatin,50 mg,Intranasal,Johnson & Johnson,05/14/1971,04/12/1991
+774,Lisinopril,10 mg,Oral,Boehringer Ingelheim,11/10/1983,12/17/2008
+775,Aspirin,50 mg,Oral,Merck,08/02/1999,07/18/1989
+776,Timolol,200 mg,Oral,Johnson & Johnson,08/03/2024,04/29/1973
+777,Donepezil,81 mg,Oral,Bayer,08/17/2006,12/21/2003
+778,Aspirin,50 mg,Oral,Gilead,11/23/1976,09/22/2015
+779,Cyclobenzaprine,200 mg,Oral,Pfizer,12/08/1991,10/01/2024
+780,Calcitonin,10 mg,Oral,Pfizer,05/06/2017,02/26/2013
+781,Amitriptyline,50 mcg / inhalation,Oral,Pfizer,05/29/1975,04/03/2015
+782,Metoprolol,50 mg,Oral,Pfizer,09/02/1993,01/11/1995
+783,Beta blockers,25 mg,Oral,Sanofi,08/14/1979,03/03/2007
+784,Ibuprofen,10 mg,Subcutaneous,Bayer,10/02/1989,01/31/2007
+785,Omeprazole,5 mg,Oral,Mylan,11/19/1987,04/19/1992
+786,Losartan,0.05%,Oral,Pfizer,03/07/1976,01/29/1995
+787,Melatonin,81 mg,Oral,Novo Nordisk,05/08/2001,04/04/1971
+788,Gabapentin,300 mg,Topical,Eisai,03/06/2004,03/26/1994
+789,Clobetasol,20 mg,Oral,Bayer,03/04/1996,02/22/1980
+790,Losartan,300 mg,Oral,Eisai,08/16/2006,06/03/2016
+791,Temazepam,20 mg,Oral,Johnson & Johnson,03/14/2001,12/19/2002
+792,Advil,0.05%,Oral,Novo Nordisk,05/28/2010,09/12/1981
+793,Azithromycin,40 mg,Oral,Apotex,03/02/1988,07/07/1997
+794,Amitriptyline,10 mg,Topical,Pfizer,01/03/1988,01/21/2005
+795,Oxycodone,10 mg,Topical,Bayer,08/07/2009,11/25/1974
+796,Aspirin,5 mg,Oral,Sun Pharmaceutical,12/24/1972,05/07/2003
+797,Warfarin,20 mg,Oral,Novo Nordisk,04/21/1984,07/17/1972
+798,Cyclobenzaprine,90 mcg / inhalation,Oral,Pfizer,05/01/2003,06/27/1975
+799,Melatonin,50 IU / kg,Oral,Gilead,04/12/1987,09/09/1987
+800,Tylenol,500 mg,Topical,Merck,02/13/2000,02/24/2013
+801,Fentanyl,300 mg,Intravenous,Gilead,09/29/1990,01/27/1994
+802,Losartan,200 mg,Oral,Gilead,07/17/1983,06/14/2006
+803,Ibuprofen,10 mg,Oral,Pfizer,07/19/1984,08/25/2015
+804,Statins,15 mg,Oral,Merck,04/19/2020,09/14/1991
+805,Hydroxychloroquine,500 mg,Oral,Boehringer Ingelheim,10/13/2024,10/04/2000
+806,Cyclophosphamide,200 IU,Topical,Johnson & Johnson,05/30/1974,02/20/2015
+807,Calcitonin,40 mg,Oral,Merck,08/28/1983,10/19/2006
+808,Sertraline,500 mg,Oral,GlaxoSmithKline,12/19/2017,03/12/1978
+809,Angiotensin inhibitors,10 mg,Oral,Boehringer Ingelheim,05/07/1980,09/25/1992
+810,Omeprazole,10 mg,Oral,Johnson & Johnson,02/21/1986,05/31/1990
+811,Naloxone,200 mg,Oral,Pfizer,03/30/2020,08/04/2010
+812,Melatonin,15 mg,Oral,Novo Nordisk,07/26/1999,02/28/1973
+813,Oxycodone,500 mg,Oral,Pfizer,12/11/1977,08/15/1987
+814,Lorazepam,10 units,Oral,Pfizer,05/08/2009,07/19/2016
+815,Naloxone,0.05%,Oral,Eisai,04/21/2023,01/17/1987
+816,Donepezil,50 mcg,Subcutaneous,Bayer,04/16/1982,03/03/2005
+817,Lisinopril,81 mg,Oral,Purdue Pharma,03/02/2000,11/17/1978
+818,Timolol,10 units,Intravenous,Gilead,07/11/2014,05/17/2008
+819,Naloxone,500 mg,Oral,Sanofi,12/20/2002,10/25/2001
+820,Gabapentin,50 mg,Oral,Pfizer,07/03/2013,01/14/1999
+821,Latanoprost,500 mg,Oral,Mylan,05/14/2010,02/22/2010
+822,Gabapentin,40 mg,Oral,Bristol-Myers Squibb,11/18/1994,11/11/1985
+823,Silver sulfadiazine,300 mg,Oral,Boehringer Ingelheim,12/22/1973,03/25/1983
+824,Donepezil,10 mg,Oral,Merck,03/02/1988,01/12/1982
+825,Lisinopril,200 mg,Oral,Takeda,11/12/2023,05/13/1980
+826,Tretinoin,40 mg,Oral,Pfizer,11/25/1971,06/28/2014
+827,Cyclophosphamide,500 mg,Oral,Sanofi,03/03/2025,11/22/2012
+828,Azithromycin,50 mg,Oral,Teva,04/10/2007,04/24/2014
+829,Insulin,200 mg,Oral,GlaxoSmithKline,08/29/2004,07/18/1989
+830,Clobetasol,300 mg,Topical,Johnson & Johnson,04/14/2022,10/15/2007
+831,Omeprazole,500 mg,Oral,Merck,01/12/2019,01/31/2008
+832,Tamoxifen,5 mg,Oral,Purdue Pharma,07/12/1979,01/22/1982
+833,Alendronate,5 mg,Intravenous,Boehringer Ingelheim,02/10/1974,07/06/1981
+834,Alendronate,90 mcg / inhalation,Oral,Boehringer Ingelheim,12/26/2021,10/19/2005
+835,Gabapentin,50 mg,Oral,AstraZeneca,06/22/1986,06/12/1978
+836,Finasteride,50 mg,Oral,Pfizer,09/22/1989,01/18/1998
+837,Metoprolol,15 mg,Oral,Pfizer,07/31/2000,04/19/2024
+838,Gabapentin,50 mcg,Oral,Bayer,10/02/1975,11/08/2009
+839,Atorvastatin,5 mg,Oral,Novartis,01/12/1998,05/11/1994
+840,Omega-3 supplements,0.05%,Oral,Abbott,02/01/2006,01/10/2006
+841,Carbidopa-Levodopa,5 mg,Oral,Sanofi,09/09/2011,08/28/1975
+842,Sertraline,10 mg,Oral,Pfizer,05/18/2000,07/05/1979
+843,Celecoxib,500 mg,Oral,Bristol-Myers Squibb,05/06/2024,09/20/1981
+844,Lansoprazole,15 mg,Oral,Pfizer,04/08/2016,06/19/2002
+845,Amitriptyline,200 IU,Oral,Novo Nordisk,06/03/2023,06/11/2001
+846,Fluticasone,200 mg,Oral,Merck,04/23/2008,05/07/2005
+847,Cyclophosphamide,25 mg,Oral,Pfizer,10/20/1994,07/20/1988
+848,Hydroxychloroquine,500 mg,Oral,Pfizer,09/07/1972,09/07/2007
+849,Piracetam,10 mg,Oral,Johnson & Johnson,04/29/2016,08/01/2024
+850,Ibuprofen,81 mg,Oral,Pfizer,12/23/2001,07/27/1978
+851,Temazepam,200 mg,Oral,Merck,10/22/1999,07/06/1975
+852,Cyclobenzaprine,25 mg,Topical,AstraZeneca,09/13/2019,07/07/1987
+853,Omeprazole,200 mg,Intranasal,Takeda,08/03/1988,11/25/2002
+854,Tamoxifen,90 mcg / inhalation,Oral,Mylan,10/03/2010,08/19/2007
+855,Albuterol,50 mg,Oral,Sun Pharmaceutical,05/06/2002,05/05/1990
+856,Melatonin,5 mg,Oral,Bayer,02/07/2022,05/29/1977
+857,Furosemide,200 mg,Oral,GlaxoSmithKline,07/05/1989,02/05/1978
+858,Aspirin,50 IU / kg,Oral,Bayer,10/09/2014,07/05/1971
+859,Amitriptyline,20 mg,Oral,Bristol-Myers Squibb,05/23/2012,07/30/1998
+860,Citalopram,25 mg / 100 mg,Oral,Bayer,06/12/1997,05/07/1981
+861,Azithromycin,10 mg,Subcutaneous,Bristol-Myers Squibb,09/08/1979,07/31/2002
+862,Ibuprofen,10 mg,Oral,Sun Pharmaceutical,12/26/1983,08/13/1983
+863,Losartan,0.05%,Subcutaneous,Novo Nordisk,06/19/2018,01/17/1998
+864,Paracetamol,81 mg,Oral,Sun Pharmaceutical,03/15/2000,11/15/2016
+865,Atorvastatin,0.05%,Oral,Merck,05/06/2014,04/28/1982
+866,Oxycodone,500 mg,Oral,GlaxoSmithKline,09/28/1994,10/11/1980
+867,Ibuprofen,5 mg,Intranasal,Sanofi,02/05/2011,10/07/1976
+868,Furosemide,81 mg,Oral,Merck,12/22/1997,05/04/1971
+869,Cyclobenzaprine,500 mg,Oral,Bristol-Myers Squibb,12/03/2014,11/06/2013
+870,Metoprolol,5 mg,Oral,Johnson & Johnson,04/10/2007,10/02/2002
+871,Albuterol,0.05%,Oral,Pfizer,09/06/1996,11/19/2018
+872,Atorvastatin,25 mg / 100 mg,Oral,Merck,03/16/2003,08/13/1973
+873,Tamoxifen,40 mg,Oral,GlaxoSmithKline,01/28/1995,10/15/2024
+874,Gabapentin,200 mg,Oral,Novo Nordisk,08/20/2010,10/18/1989
+875,Tamoxifen,500 mg,Oral,AstraZeneca,03/12/2008,12/16/1971
+876,Citalopram,50 mcg / inhalation,Oral,Bristol-Myers Squibb,03/29/1995,06/16/2011
+877,Azithromycin,500 mg,Oral,GlaxoSmithKline,09/13/1976,10/21/2019
+878,Azithromycin,90 mcg / inhalation,Oral,Pfizer,11/27/1995,08/08/2019
+879,Furosemide,200 mg,Oral,Merck,10/06/1974,08/06/1972
+880,Gabapentin,50 mg,Intramuscular,Johnson & Johnson,11/16/1977,03/07/2023
+881,Hydroxychloroquine,90 mcg / inhalation,Oral,Sanofi,08/18/1993,02/14/1977
+882,Omeprazole,50 mcg / inhalation,Oral,Takeda,06/11/2017,04/30/2008
+883,Azithromycin,500 mg,Oral,Merck,09/15/2009,01/28/1989
+884,Furosemide,70 mg,Oral,Novo Nordisk,08/28/1985,08/14/1996
+885,Statins,50 mg,Oral,Pfizer,10/18/1991,08/28/2023
+886,Lithium,25 mg / 100 mg,Oral,GlaxoSmithKline,02/25/2012,03/14/2008
+887,Aspirin,20 mg,Oral,Boehringer Ingelheim,11/16/2017,10/05/1979
+888,Gabapentin,5 mg,Oral,Novartis,11/20/2021,09/15/1981
+889,Hydroxychloroquine,10 mg,Oral,Pfizer,06/08/1986,10/10/1992
+890,Amlodipine,5 mg,Oral,Bayer,10/13/1977,02/06/2025
+891,Ciprofloxacin,300 mg,Oral,Apotex,08/03/2009,02/18/2006
+892,Iron Supplements,200 mg,Oral,Pfizer,06/20/1993,06/25/2016
+893,Calcitonin,25 mg,Topical,Merck,09/03/2002,10/17/2018
+894,Tylenol,81 mg,Subcutaneous,Apotex,05/18/1971,09/19/2023
+895,Donepezil,200 mg,Oral,AstraZeneca,01/02/2003,07/26/1984
+896,Lithium,50 mcg,Intravenous,Pfizer,12/17/1991,07/09/2000
+897,Benadryl,25 mg,Oral,Merck,11/13/2021,08/17/2008
+898,Beta blockers,200 IU,Oral,GlaxoSmithKline,01/01/2023,07/29/1979
+899,Erythropoietin,500 mg,Oral,Pfizer,08/02/2023,12/12/2007
+900,Temazepam,200 IU,Oral,Takeda,11/12/2009,10/18/2010
+901,Aspirin,50 IU / kg,Oral,Pfizer,07/25/2019,03/24/1972
+902,Piracetam,500 mg,Oral,Boehringer Ingelheim,07/05/1985,07/04/2010
+903,Ciprofloxacin,300 mg,Oral,Johnson & Johnson,09/04/1977,08/15/2004
+904,Temazepam,0.05%,Oral,Bayer,08/24/2015,04/09/2010
+905,Lansoprazole,10 units,Subcutaneous,Novo Nordisk,08/16/1977,12/09/1973
+906,Lisinopril,20 mg,Oral,Novartis,01/02/2025,07/29/2015
+907,Paracetamol,0.05%,Oral,Bayer,02/25/1989,12/13/1988
+908,Insulin,10 mg,Topical,Johnson & Johnson,12/20/1983,03/28/1992
+909,Erythropoietin,10 mg,Intramuscular,Johnson & Johnson,10/21/2013,01/28/2008
+910,Methotrexate,10 mg,Oral,Pfizer,02/22/1994,10/15/1979
+911,Aspirin,50 mcg / inhalation,Oral,Bayer,11/25/2008,03/04/1973
+912,Statins,25 mg / 100 mg,Oral,Boehringer Ingelheim,06/20/2001,05/31/2011
+913,Latanoprost,10 mg,Oral,Bayer,02/27/2024,07/18/1984
+914,Tylenol,5 mg,Oral,Pfizer,05/27/2022,08/28/2002
+915,Lansoprazole,500 mg,Topical,Allergan,02/14/1978,03/10/1986
+916,Amitriptyline,5 mg,Oral,Allergan,10/23/2000,04/03/1984
+917,Advil,25 mg / 100 mg,Oral,Boehringer Ingelheim,10/25/1980,11/19/2010
+918,Tamsulosin,81 mg,Oral,Novartis,10/17/1973,12/27/2007
+919,Albuterol,200 mg,Oral,Novartis,10/02/2000,06/29/2007
+920,Gabapentin,50 IU / kg,Oral,Sun Pharmaceutical,11/27/2002,09/22/2008
+921,Aspirin,0.05%,Oral,Bayer,11/28/2002,12/10/2011
+922,Piracetam,10 mg,Oral,Gilead,10/22/1974,11/30/2007
+923,Oxycodone,5 mg,Oral,Novartis,02/18/1985,04/26/1980
+924,Levothyroxine,0.05%,Intravenous,Boehringer Ingelheim,10/17/2010,09/25/1994
+925,Carbidopa-Levodopa,50 mg,Oral,Novo Nordisk,05/13/1980,08/19/2020
+926,Tamoxifen,50 mcg,Oral,Merck,03/15/2004,03/01/1985
+927,Metoprolol,200 mg,Oral,Boehringer Ingelheim,11/06/2024,08/29/2005
+928,Metoprolol,25 mg,Oral,Bayer,12/12/2002,07/01/1979
+929,Oseltamivir,10 mg,Oral,Gilead,01/11/1991,01/16/1990
+930,Omeprazole,50 mcg / inhalation,Oral,Merck,03/26/1989,03/10/2004
+931,Angiotensin inhibitors,25 mg / 100 mg,Oral,Apotex,06/20/1989,08/13/1992
+932,Hydroxychloroquine,200 mg,Oral,Takeda,02/19/1975,06/29/2002
+933,Atorvastatin,20 mg,Intramuscular,GlaxoSmithKline,04/18/1996,11/28/1998
+934,Insulin,200 mg,Oral,Boehringer Ingelheim,05/05/2006,02/20/2000
+935,Ibuprofen,20 mg,Oral,Merck,10/24/1972,02/11/1980
+936,Hydroxychloroquine,40 mg,Oral,Johnson & Johnson,11/15/2001,10/13/2013
+937,Celecoxib,200 mg,Subcutaneous,Sun Pharmaceutical,12/05/1989,01/15/2000
+938,Sertraline,200 mg,Oral,Johnson & Johnson,06/24/2019,01/31/2017
+939,Aspirin,50 mcg / inhalation,Oral,Pfizer,10/26/1978,11/15/1995
+940,Tamoxifen,0.05%,Oral,Boehringer Ingelheim,05/30/2004,04/29/1986
+941,Cyclophosphamide,20 mg,Subcutaneous,Pfizer,12/03/1983,08/13/1983
+942,Naloxone,500 mg,Oral,Johnson & Johnson,03/02/1971,06/08/2019
+943,Tamsulosin,500 mg,Oral,Pfizer,03/06/1978,10/23/1973
+944,Amitriptyline,0.05%,Oral,Novartis,08/25/1998,11/02/2019
+945,Sertraline,25 mg / 100 mg,Oral,Gilead,06/16/2015,08/28/2001
+946,Tamoxifen,20 mg,Intramuscular,Apotex,08/18/2013,01/11/2006
+947,Erythropoietin,50 IU / kg,Oral,Teva,03/21/2019,02/16/2006
+948,Alendronate,15 mg,Oral,Bayer,08/03/1975,04/18/1997
+949,Erythropoietin,10 units,Oral,Apotex,04/15/1986,07/24/1998
+950,Angiotensin inhibitors,10 units,Oral,Johnson & Johnson,08/27/1992,03/10/2007
+951,Carbidopa-Levodopa,50 mcg,Oral,Bayer,06/19/2016,03/22/2004
+952,Cyclobenzaprine,20 mg,Intravenous,Pfizer,11/07/2013,08/19/1991
+953,Citalopram,500 mg,Topical,AstraZeneca,11/20/1975,07/04/1978
+954,Aspirin,50 mg,Oral,Allergan,05/06/2009,07/12/1982
+955,Warfarin,25 mg / 100 mg,Oral,Novartis,02/24/2023,01/03/1995
+956,Tretinoin,500 mg,Oral,Johnson & Johnson,11/05/2018,11/23/2020
+957,Omeprazole,500 mg,Intravenous,Purdue Pharma,05/12/1986,04/11/2022
+958,Levothyroxine,0.05%,Oral,Teva,01/04/1998,09/11/1983
+959,Cyclophosphamide,0.05%,Topical,AstraZeneca,11/05/1976,10/06/1972
+960,Lithium,300 mg,Oral,Abbott,06/26/2012,06/19/2024
+961,Omega-3 supplements,50 mcg,Oral,Bristol-Myers Squibb,07/05/1977,01/10/2019
+962,Zyrtec,40 mg,Oral,Pfizer,06/28/1970,11/15/1977
+963,Temazepam,25 mg / 100 mg,Oral,Merck,08/22/1970,02/28/1989
+964,Tylenol,70 mg,Oral,Sun Pharmaceutical,01/31/1982,11/16/2006
+965,Omega-3 supplements,40 mg,Oral,Novartis,05/31/2010,03/03/1984
+966,Advil,5 mg,Oral,Pfizer,06/06/1988,03/25/1985
+967,Tamoxifen,10 mg,Subcutaneous,Boehringer Ingelheim,07/19/1972,12/26/2014
+968,Etanercept,10 mg,Oral,Novo Nordisk,01/01/1971,01/04/1995
+969,Atorvastatin,200 mg,Oral,Sun Pharmaceutical,11/30/2001,05/26/2024
+970,Clobetasol,10 mg,Subcutaneous,Sun Pharmaceutical,03/31/2023,05/13/2012
+971,Finasteride,300 mg,Oral,Teva,05/09/2014,11/23/2015
+972,Gabapentin,10 mg,Oral,Allergan,12/06/2018,05/14/2000
+973,Advil,200 mg,Intranasal,Bayer,12/11/1970,01/25/1975
+974,Amlodipine,50 mcg / inhalation,Oral,Merck,06/23/1989,11/25/1992
+975,Cyclophosphamide,0.05%,Intravenous,GlaxoSmithKline,03/11/1981,06/07/1993
+976,Enalapril,200 mg,Intranasal,Pfizer,01/01/2003,08/20/2000
+977,Metoprolol,5 mg,Oral,Mylan,11/01/2012,06/16/1990
+978,Temazepam,50 mg,Oral,Merck,04/27/1998,12/08/2005
+979,Alendronate,10 mg,Oral,Sanofi,08/05/1982,03/22/2005
+980,Morphine,5 mg,Oral,Teva,12/28/2007,08/09/1997
+981,Amitriptyline,500 mg,Oral,Abbott,07/24/2001,12/15/2016
+982,Methotrexate,50 mg,Oral,Gilead,03/21/2001,06/29/1995
+983,Silver sulfadiazine,25 mg,Oral,Pfizer,05/10/2000,10/09/1996
+984,Tretinoin,5 mg,Oral,Sun Pharmaceutical,06/20/2016,12/19/1984
+985,Fluoxetine,200 mg,Oral,Novo Nordisk,01/25/2003,08/04/1994
+986,Donepezil,0.05%,Oral,Apotex,01/25/1982,06/26/1998
+987,Carbidopa-Levodopa,5 mg,Intranasal,Pfizer,04/22/2003,02/19/1988
+988,Enalapril,25 mg / 100 mg,Oral,Johnson & Johnson,10/09/2008,10/28/2020
+989,Cyclobenzaprine,15 mg,Oral,Novartis,08/29/2022,05/06/1991
+990,Azithromycin,0.05%,Oral,Pfizer,11/11/2016,12/02/1994
+991,Donepezil,10 units,Oral,Bayer,10/21/1994,10/04/1981
+992,Donepezil,25 mg / 100 mg,Oral,Teva,10/14/2010,04/21/2020
+993,Aspirin,200 mg,Oral,Teva,02/05/2018,11/16/2008
+994,Furosemide,50 mg,Oral,Pfizer,01/13/2011,07/24/2017
+995,Losartan,50 mcg / inhalation,Oral,Pfizer,05/15/1977,06/27/2000
+996,Amlodipine,50 mg,Oral,Johnson & Johnson,05/29/2003,12/31/1989
+997,Advil,500 mg,Oral,Teva,03/27/2017,02/04/1977
+998,Temazepam,10 mg,Oral,Merck,05/09/2018,03/30/1998
+999,Sertraline,25 mg / 100 mg,Oral,Pfizer,01/27/1984,02/26/2025
+1000,Amitriptyline,200 mg,Oral,Merck,08/20/1980,04/03/1994

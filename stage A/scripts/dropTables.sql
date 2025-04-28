@@ -4,4 +4,3 @@ DROP TABLE IF EXISTS public.medicaltreatments CASCADE;
 DROP TABLE IF EXISTS public.medications CASCADE;
 DROP TABLE IF EXISTS public.residents CASCADE;
 DROP TABLE IF EXISTS public.doctors CASCADE;
-
