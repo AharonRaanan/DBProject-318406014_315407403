@@ -1,4 +1,6 @@
-1
+1 
+    פרטי הדיירים שיש להם יותר מ-4 מכשירים מושאלים, וכמות המכשירים שמושאלים אצלם:
+    
 SELECT r.resident_id, r.r_fname AS first_name, r.r_lname AS last_name, COUNT(m.equipment_id) AS total_devices
 FROM residents r
 JOIN medicalequipmentreceiving m ON r.resident_id = m.resident_id
@@ -6,7 +8,8 @@ GROUP BY r.resident_id, r.r_fname, r.r_lname
 HAVING COUNT(m.equipment_id) > 4
 ORDER BY r.resident_id;
 
-2
+
+2    מציאת המכשיר שמושאל הכי הרבה, וכמות ההשאלות שלו::
 SELECT 
     equipment_type, 
     COUNT(equipment_id) AS total_rentals
@@ -23,15 +26,21 @@ HAVING
         GROUP BY 
             equipment_type
     );
-3
+
+3    כמות המכשירים שמושאלים כרגע מכל סוג, ממוין לפי כמות:
 SELECT 
-    COUNT(*) AS currently_rented_devices
+    equipment_type AS device_type,
+    COUNT(*) AS currently_rented_count
 FROM 
     medicalequipmentreceiving
 WHERE 
-    end_date IS NULL;
+    end_date IS NULL
+GROUP BY 
+    equipment_type
+ORDER BY 
+    currently_rented_count DESC;
 
-4
+4    שמות הרופאים שביצעו הכי הרבה ביקורים:
 SELECT 
     d.doc_id, 
     d.doc_fname AS first_name, 
@@ -64,7 +73,7 @@ GROUP BY
 ORDER BY 
     total_treatments DESC;
 
-5
+5    כמות הביקורים וכמות המכשירים שהיו בשימוש לפי שנים:
 SELECT
   COALESCE(r.year, t.year) AS year,
   COALESCE(total_devices, 0) AS total_devices,
@@ -84,7 +93,9 @@ FULL OUTER JOIN
 ON r.year = t.year
 ORDER BY year;
 
-6
+
+6    כמות התרופות שכל דייר לוקח:
+
 SELECT resident_id, r_fname, r_lname, COUNT(medication_id) AS total_medications
 FROM residentmedications
 NATURAL JOIN residents
@@ -92,7 +103,8 @@ GROUP BY resident_id, r_fname, r_lname
 ORDER BY total_medications DESC, resident_id;
 
 
-7
+
+7    כל הפרטים על הדייר הכי מבוגר:
 SELECT 
     residents.resident_id AS resident_id,
     r_fname AS first_name,
@@ -132,7 +144,8 @@ GROUP BY
     equipment_type,
     m_name;
 
-8
+
+8    פרטי כל מטופל והביקורים שהיו אצלו:
 SELECT 
     residents.resident_id AS resident_id,
     r_fname AS first_name,
@@ -160,3 +173,4 @@ GROUP BY
 ORDER BY 
     residents.resident_id,
     treatmentdate;
+

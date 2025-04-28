@@ -39,3 +39,6 @@ Photo of the backup & Photo of the restoration
 
 ![PHOTO-2025-04-01-19-05-50](https://github.com/user-attachments/assets/7e628ba9-15f6-4a85-8efd-e7284f1b8d34)
 
+Select queries
+
+

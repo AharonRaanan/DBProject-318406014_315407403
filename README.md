@@ -27,12 +27,7 @@ Second tool: using mockaro to create csv file
 Third tool: using python to create csv file
 ![83FAE20A-6067-40D2-9430-159B9E7FBA4F](https://github.com/user-attachments/assets/33415e6a-55d4-43ce-b872-cf293b1ba71c)
 
-<<<<<<< HEAD
-Photo of the backup
 
-Photo of the restoration
-
-=======
 Photo of the backup & Photo of the restoration
 
 ![PHOTO-2025-04-01-18-40-23](https://github.com/user-attachments/assets/50152aa5-8198-4e0a-bfb9-db61b51e7687)
@@ -44,15 +39,52 @@ Photo of the backup & Photo of the restoration
 ![PHOTO-2025-04-01-19-04-43](https://github.com/user-attachments/assets/febfa1c5-9cf8-43ff-8ee4-5e469d613faa)
 
 ![PHOTO-2025-04-01-19-05-50](https://github.com/user-attachments/assets/7e628ba9-15f6-4a85-8efd-e7284f1b8d34)
->>>>>>> 80809ed4de81d534dbebb1a8f5c6fbe33f55b601
+
+
+Aharon Raanan & Levi Greenfeld
+
 
 Stage B:
 
 Select queries:
 
 
-[DBProject-318406014_315407403/stage B
-/Select__queries.docx](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20B/Select__queries.docx)
+
+פרטי הדיירים שיש להם יותר מ-4 מכשירים מושאלים, וכמות המכשירים שמושאלים אצלם:
+
+
+![צילום מסך 2025-04-22 214824](https://github.com/user-attachments/assets/0bba89cf-8583-4faf-ae84-134e0bc5dc9b)
+
+
+
+מציאת המכשיר שמושאל הכי הרבה, וכמות ההשאלות שלו:
+![צילום מסך 2025-04-22 202757](https://github.com/user-attachments/assets/e82c475c-5854-47fb-9619-7439af7c7226)
+
+
+כמות המכשירים שמושאלים כרגע מכל סוג, ממוין לפי כמות:
+![צילום מסך 2025-04-22 202833](https://github.com/user-attachments/assets/a37eb3a9-9c3b-4b63-9396-37aa850097e7)
+
+
+שמות הרופאים שביצעו הכי הרבה ביקורים:
+![צילום מסך 2025-04-22 202917](https://github.com/user-attachments/assets/3a1a63ad-f3e6-4d21-a5ab-4536356f928d)
+
+
+כמות הביקורים וכמות המכשירים שהיו בשימוש לפי שנים:
+![צילום מסך 2025-04-22 203002](https://github.com/user-attachments/assets/f7caf71d-9ec0-496c-96ec-95fc58776cb8)
+
+
+כמות התרופות שכל דייר לוקח:
+![צילום מסך 2025-04-22 203036](https://github.com/user-attachments/assets/7160d26a-4508-4f69-b46c-0b89f4d6e354)
+
+
+כל הפרטים על הדייר הכי מבוגר:
+(ניתן להחליף את התנאי ולמצוא את כל הפרטים על כל דייר אחר שנבחר, בעזרת שאילתה זו)
+![צילום מסך 2025-04-22 203127](https://github.com/user-attachments/assets/b3a2cec1-2fa2-4d2f-8d20-f54b47809a43)
+
+פרטי כל מטופל והביקורים שהיו אצלו:
+![צילום מסך 2025-04-22 203551](https://github.com/user-attachments/assets/4bb12c95-2fb2-4317-93de-c8428c385f34)
+
+
 
 Update.sql:
 
