@@ -129,3 +129,16 @@ The system stores data on residents, doctors, medications, and the relationships
 
 ### [Constraint 3: Checking Medication Form Types](#constraint-3-checking-medication-form-types)
 ![Constraint 4](https://github.com/user-attachments/assets/93a806ee-033f-47a7-bcb4-04e9396093a1)
+
+
+### stage C:
+
+## img of reversing of Human Resources Management backup
+
+![DSD of newDataBase](https://github.com/user-attachments/assets/514c188a-da41-4ff2-af49-97459918d58f)
+![ERD ofNewDataBase](https://github.com/user-attachments/assets/9a295b87-a1fb-4fae-ae46-d19b93e47e6d)
+
+## integrate of tow data bases:
+![intergrateERD](https://github.com/user-attachments/assets/5e477de8-21fc-41be-b44b-5a18089ca5b3)
+![integrateDSD](https://github.com/user-attachments/assets/4d420469-98aa-4fbe-a7ea-5ba6316f3b2a)
+
