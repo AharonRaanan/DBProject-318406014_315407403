@@ -142,3 +142,92 @@ The system stores data on residents, doctors, medications, and the relationships
 ![intergrateERD](https://github.com/user-attachments/assets/5e477de8-21fc-41be-b44b-5a18089ca5b3)
 ![integrateDSD](https://github.com/user-attachments/assets/4d420469-98aa-4fbe-a7ea-5ba6316f3b2a)
 
+## Integration Report:
+During the integration performed in the database schema, several changes were made to existing tables, while maintaining the relationships between them and ensuring data upgrades in an organized manner. Here's a summary of the steps taken:
+
+# 1. Decision that "Doctors" Inherit from "Employees"
+It was decided that the doctors table would inherit its attributes from the employee table. This means that every doctor will also be considered an employee. The unique identifier employeeid_ is retained in the doctors table as a foreign key, and the doctors' data will be shared with the rest of the employees.
+
+# 2. Changes in the doctors Table
+After the decision that doctors are inherited entities, the attributes doc_gender, email, phone, and licenserenewaldate_ were retained in the doctors table.
+
+All other attributes (such as doc_fname, doc_lname, specialization, hiredate) were moved to the employee table.
+
+# Relationships Between Tables:
+one-to-many relationships were established between medicalequipmentreceiving and doctors and residents:
+
+The relationship between medicalequipmentreceiving and doctors:
+
+medicalequipmentreceiving holds a foreign key pointing to employeeid_ in doctors. This means each row in the medicalequipmentreceiving table refers to a doctor (a foreign key pointing to doctors).
+
+The relationship between medicalequipmentreceiving and residents:
+
+medicalequipmentreceiving holds a foreign key pointing to resident_id in residents. This means each row in this table refers to a resident receiving the medical equipment.
+
+# 3. Schema Changes
+Throughout the integration, table names ending with an underscore (e.g., employee_, department_) were renamed to standardized names without the underscore to improve readability and create a consistent data structure.
+
+For example: department_ was renamed to department.
+
+# 4. Adding the "Medicine" Department
+A new department, Medicine, was added to the database:
+
+A new row was inserted into the department table with ID 504 and the email medicine@company.com.
+
+# 5. Adding Rows to the position Table
+Changes were made to the position table, which now includes job positions for doctors:
+
+1000 rows were added with positionid_ ranging from 501 to 1500.
+
+title_ was populated with the specializations from the doctors table (the doctor's specialization was transferred to title_).
+
+A random salary was generated between 30000 and 150000.
+
+All positions were assigned to the Medicine department with departmentid_ set to 504.
+
+# 6. Adding Rows to the employee Table
+1000 rows were added to the employee table for the doctors, with employeeid_ ranging from 1001 to 2000:
+
+doc_fname and doc_lname were copied to firstname_ and lastname_ respectively.
+
+hiredate from doctors was copied to hire_date in the employee table.
+
+Additionally, active was set to true, and birthdate_ was initially set to 1970-01-01 (temporary date).
+
+Added random birthdates between 1960 and 1998: Each new row in the employee table received a random birthdate within the specified range.
+
+# 7. Updating the doctors Table
+Changes were made to the doctors table:
+
+The column doc_id was renamed to employeeid_, making it the foreign key pointing to the employee table.
+
+The columns doc_fname, doc_lname, specialization, and hiredate were removed from the doctors table.
+
+The employeeid_ column was updated in the range 1001 to 2000, ensuring that the doctor records in the doctors table align with the new values.
+
+# 8. Removing Foreign Keys (Before Making Changes)
+Before making the updates, foreign keys in the medicalequipmentreceiving and medicaltreatments tables were removed to avoid errors during the update:
+
+The medicalequipmentreceiving table referenced employeeid_.
+
+The medicaltreatments table also referenced employeeid_.
+
+# 9. Updating Values in Dependent Tables
+After updating the employeeid_ in the doctors table, the values in the employeeid_ columns of the medicalequipmentreceiving and medicaltreatments tables were updated by adding 1000 to each value:
+
+All values in the employeeid_ column of the medicalequipmentreceiving table were updated to align with the new IDs in doctors.
+
+All values in the doc_id column of the medicaltreatments table were updated to align with the new IDs in doctors.
+
+# 10. Restoring Foreign Keys and Defining Primary Key
+After updating the values in the doctors table, the foreign keys were restored:
+
+doctors_employeeid_fkey: A foreign key pointing to employee.
+
+doctors_pkey: A primary key on employeeid_ in the doctors table.
+
+The foreign keys were also restored in the medicalequipmentreceiving and medicaltreatments tables.
+
+# 11. Renaming the Column in medicaltreatments
+Finally, the column doc_id in the medicaltreatments table was renamed to employeeid_, making it consistent with the new column name in the doctors table.
+
