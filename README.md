@@ -236,5 +236,9 @@ The View_residents view is designed to provide a comprehensive overview of resid
 ![צילום מסך 2025-05-13 000718](https://github.com/user-attachments/assets/097c6119-ec7c-4532-b12f-c57683695644)
 
 ![צילום מסך 2025-05-13 000859](https://github.com/user-attachments/assets/ee24e403-4ebe-4a4f-8cda-993188b0827d)
+### Query 1: Residents Who Received Medical Treatment but Were Not Recommended Medical Equipment
+Objective: To identify residents who received medical treatment but were not recommended medical equipment, which may indicate the need for a reassessment of their needs.
+![צילום מסך 2025-05-13 002747](https://github.com/user-attachments/assets/c131c99f-1a1e-4e10-a34d-cdb3db36fffa)
+
 
 
