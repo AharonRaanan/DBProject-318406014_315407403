@@ -244,5 +244,5 @@ Objective: To identify residents who received medical treatment but were not rec
 
 Objective: To classify residents based on the type of service they received: medical treatment only, medical equipment only, both, or neither.
 
-![צילום מסך 2025-05-13 003501](https://github.com/user-attachments/assets/f1de009e-e8d9-45df-8e95-0f60ab67a9d6)
+[![צילום מסך 2025-05-13 003501](https://github.com/user-attachments/assets/f1de009e-e8d9-45df-8e95-0f60ab67a9d6)](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20number%201%2C%20query%202.png)
 ### View number 2
