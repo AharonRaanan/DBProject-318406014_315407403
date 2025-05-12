@@ -249,5 +249,5 @@ Objective: To classify residents based on the type of service they received: med
 ### View_employee
 The view provides a comprehensive view of employee details along with information about any sanctions or bonuses assigned to them. It combines data from two tables: employee and sanctionbonus, using a FULL OUTER JOIN based on the employee ID (employeeid_ in the first table and recordid_ in the second).
 
-https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20employee.png
+[https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20employee.png](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20employee.png)
 
