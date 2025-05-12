@@ -261,6 +261,5 @@ Objective: To identify employees who have been assigned the highest bonuses, whi
 
 
 ### Query 2: Sanctions Assigned to Employees – By Frequency
-tradoc.army.mil
 
 Objective: To identify which sanctions have been assigned to employees most frequently, which may indicate recurring issues or the need for intervention.
