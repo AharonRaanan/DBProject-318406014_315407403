@@ -251,6 +251,7 @@ The view provides a comprehensive view of employee details along with informatio
 
 [![View employee](https://raw.githubusercontent.com/AharonRaanan/DBProject-318406014_315407403/main/stage%20c/View%20employee.png)](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20employee.png)
 
+[![select from view employee](https://raw.githubusercontent.com/AharonRaanan/DBProject-318406014_315407403/main/stage%20c/select%20from%20view%20employee.png)](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/select%20from%20view%20employee.png)
 
 
 
