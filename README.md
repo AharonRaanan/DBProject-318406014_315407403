@@ -263,3 +263,6 @@ Objective: To identify employees who have been assigned the highest bonuses, whi
 ### Query 2: Sanctions Assigned to Employees – By Frequency
 
 Objective: To identify which sanctions have been assigned to employees most frequently, which may indicate recurring issues or the need for intervention.
+
+[![View number 2, query 2](https://raw.githubusercontent.com/AharonRaanan/DBProject-318406014_315407403/main/stage%20c/View%20number%202%2C%20query%202.png)](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20number%202%2C%20query%202.png)
+
