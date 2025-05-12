@@ -239,7 +239,7 @@ The View_residents view is designed to provide a comprehensive overview of resid
 ### Query 1: Residents Who Received Medical Treatment but Were Not Recommended Medical Equipment
 
 Objective: To identify residents who received medical treatment but were not recommended medical equipment, which may indicate the need for a reassessment of their needs.
-![צילום מסך 2025-05-13 002747](https://github.com/user-attachments/assets/c131c99f-1a1e-4e10-a34d-cdb3db36fffa)
+[![צילום מסך 2025-05-13 002747](https://github.com/user-attachments/assets/c131c99f-1a1e-4e10-a34d-cdb3db36fffa)](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20number%201%2C%20query-1.png)
 ### Query 2: Classifying Residents by the Type of Service They Received
 
 Objective: To classify residents based on the type of service they received: medical treatment only, medical equipment only, both, or neither.
