@@ -232,7 +232,7 @@ The foreign keys were also restored in the medicalequipmentreceiving and medical
 Finally, the column doc_id in the medicaltreatments table was renamed to employeeid_, making it consistent with the new column name in the doctors table.
 ### View number 1
 ### View_residents
-The View_residents view is designed to provide a comprehensive overview of residents' information, including personal details, recommended medical equipment, and medical treatments they have received. The view combines data from three tables: residents, medicalequipmentreceiving, and medicaltreatments, by joining them based on the resident's identifier (resident_id).
+The view provides a comprehensive overview of residents' information, including personal details, recommended medical equipment, and medical treatments they have received. The view combines data from three tables: residents, medicalequipmentreceiving, and medicaltreatments, by joining them based on the resident's identifier (resident_id).
 [![צילום מסך 2025-05-13 000718](https://github.com/user-attachments/assets/097c6119-ec7c-4532-b12f-c57683695644)](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20residents.png)
 
 [![צילום מסך 2025-05-13 000859](https://github.com/user-attachments/assets/ee24e403-4ebe-4a4f-8cda-993188b0827d)](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/select%20from%20view_residents.png)
@@ -246,3 +246,5 @@ Objective: To classify residents based on the type of service they received: med
 
 [![צילום מסך 2025-05-13 003501](https://github.com/user-attachments/assets/f1de009e-e8d9-45df-8e95-0f60ab67a9d6)](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20number%201%2C%20query%202.png)
 ### View number 2
+### View_employee
+The view provides a comprehensive view of employee details along with information about any sanctions or bonuses assigned to them. It combines data from two tables: employee and sanctionbonus, using a FULL OUTER JOIN based on the employee ID (employeeid_ in the first table and recordid_ in the second).
