@@ -232,8 +232,7 @@ The foreign keys were also restored in the medicalequipmentreceiving and medical
 Finally, the column doc_id in the medicaltreatments table was renamed to employeeid_, making it consistent with the new column name in the doctors table.
 
 ### View_residents
-המבט View_residents נועד לספק תצוגה מקיפה של מידע על דיירים, כולל פרטים אישיים, ציוד רפואי שהומלץ להם, וטיפולים רפואיים שקיבלו.
-המבט משלב נתונים משלוש טבלאות: residents, medicalequipmentreceiving ו-medicaltreatments, באמצעות חיבורים על בסיס מזהה הדייר (resident_id).
+The View_residents view is designed to provide a comprehensive overview of residents' information, including personal details, recommended medical equipment, and medical treatments they have received. The view combines data from three tables: residents, medicalequipmentreceiving, and medicaltreatments, by joining them based on the resident's identifier (resident_id).
 ![צילום מסך 2025-05-12 234125](https://github.com/user-attachments/assets/b9848c14-7c4a-4811-b7f2-3af980324263)
 ![צילום מסך 2025-05-12 234834](https://github.com/user-attachments/assets/c2525c5a-146e-4021-8a55-376eefea4af3)
 
