@@ -1,27 +1,3 @@
-CREATE OR REPLACE PROCEDURE add_sanction_bonus(emp_id INT, is_bonus BOOLEAN, reason TEXT, amount DOUBLE PRECISION)
-LANGUAGE plpgsql
-AS $$
-DECLARE
-    new_recordid INT;
-BEGIN
-    new_recordid := (SELECT COALESCE(MAX(recordid_), 0) + 1 FROM sanctionbonus);
-
-    INSERT INTO sanctionbonus(recordid_, amount_, reason, sanction_or_bonus_, dategiven)
-    VALUES (new_recordid, amount, reason, CASE WHEN is_bonus THEN 'B' ELSE 'S' END, CURRENT_DATE);
-
-    INSERT INTO has_sanctionreward(recordid_, employeeid_, date_)
-    VALUES (new_recordid, emp_id, CURRENT_DATE);
-END;
-$$;
------------------------------------------------------------------------------
-CREATE OR REPLACE PROCEDURE add_sanction_bonus(
-    p_emp_id INT,
-    p_is_bonus BOOLEAN,
-    p_reason TEXT,
-    p_amount NUMERIC(10, 2)
-)
-LANGUAGE plpgsql
-AS $$
 DECLARE
     v_record_id INT; -- המזהה שיתקבל מה-INSERT
     v_sanction_or_bonus_type CHAR(1);
@@ -55,8 +31,9 @@ BEGIN
         END IF;
 
         -- 4. הכנסת רשומה לטבלת sanctionbonus
-        INSERT INTO sanctionbonus (sanction_or_bonus_, amount_, reason_)
-        VALUES (v_sanction_or_bonus_type, p_amount, p_reason)
+        -- שימו לב: הוספנו את dategiven והגדרנו אותו ל-CURRENT_DATE
+        INSERT INTO sanctionbonus (sanction_or_bonus_, amount_, reason, dategiven)
+        VALUES (v_sanction_or_bonus_type, p_amount, p_reason, CURRENT_DATE) -- כאן הוספנו את dategiven
         RETURNING recordid_ INTO v_inserted_record_id; -- שליפת ה-ID שנוצר אוטומטית
 
         -- 5. הכנסת רשומה לטבלת has_sanctionreward
@@ -89,4 +66,4 @@ BEGIN
             RAISE EXCEPTION 'An unexpected error occurred in add_sanction_bonus for employee %: %', p_emp_id, SQLERRM;
     END; -- סיום בלוק ה-BEGIN הפנימי
 END;
-$$; -- <--- סוף הפונקציה עם שני דולרים ונקודה-פסיק!
+
