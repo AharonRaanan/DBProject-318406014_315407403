@@ -29,60 +29,20 @@ CREATE OR REPLACE FUNCTION get_resident_treatments_refcursor(
 )
 RETURNS refcursor AS $$
 DECLARE
-    -- הגדרת REF CURSOR שיחזור מחוץ לפונקציה
     v_treatment_cursor refcursor;
-
-    -- משתנים ללוגיקה פנימית (דוגמה לשימוש ברשומה ובלולאה)
-    v_treatment_record RECORD; -- משתנה כללי לשימוש בלולאת הקורסור
-    v_treatment_count INT := 0; -- ספירת טיפולים שנמצאו
-    v_log_status VARCHAR(50);
+    v_log_status VARCHAR(50); -- משתנה לאחסון סטטוס הלוג
+    v_log_id INT; -- לאחסון ה-ID של רשומת הלוג
 BEGIN
-    -- טיפול בחריגות לכלל הפונקציה
+    -- אתחול סטטוס הלוג ל'STARTED' והכנסת רשומת הלוג מיד.
+    -- שמירת ה-log_id לעדכון מאוחר יותר.
+    v_log_status := 'STARTED';
+    INSERT INTO function_call_log (function_name, resident_id, status, call_timestamp)
+    VALUES ('get_resident_treatments_refcursor', p_res_id, v_log_status, NOW())
+    RETURNING log_id INTO v_log_id; -- קבלת ה-ID של רשומת הלוג החדשה
+
+    -- בלוק לוגיקה ראשי עם טיפול בחריגות
     BEGIN
-        -- רישום קריאה לפונקציה (דוגמה ל-DML בתוך פונקציה)
-        INSERT INTO function_call_log (function_name, resident_id, status)
-        VALUES ('get_resident_treatments_refcursor', p_res_id, 'STARTED');
-
-        -- הגדרת קורסור מפורש
-        -- שימו לב: הקורסור מוגדר עבור שאילתה מסוימת
-        -- הוא לא נפתח כאן, אלא יוחזר כרפרנס
-        OPEN v_treatment_cursor FOR
-            SELECT
-                mt.treatmentdate,
-                mt.employeeid_ AS doctor_id,
-                (e.firstname_ || ' ' || e.lastname_)::VARCHAR AS doctor_name,
-                mt.purpose,
-                mt.status
-            FROM medicaltreatments mt
-            JOIN doctors d ON mt.employeeid_ = d.employeeid_
-            JOIN employee e ON d.employeeid_ = e.employeeid_
-            WHERE mt.resident_id = p_res_id
-            -- הסתעפות: אם יש פילטר סטטוס, נוסיף אותו לשאילתה
-            AND (p_status_filter IS NULL OR mt.status = p_status_filter)
-            ORDER BY mt.treatmentdate DESC;
-
-        -- דוגמה לשימוש בקורסור *בתוך* הפונקציה (לא חובה, אבל מדגים explicit cursor ולולאה)
-        -- אם נרצה לעבד את הנתונים לפני החזרת הקורסור
-        -- (הערה: לשם הדגמה בלבד, בדרך כלל לא תעשה זאת עם REF CURSOR שמיועד להחזרה ללקוח)
-        LOOP
-            FETCH v_treatment_cursor INTO v_treatment_record;
-            EXIT WHEN NOT FOUND; -- יציאה מהלולאה אם אין יותר שורות
-
-            v_treatment_count := v_treatment_count + 1;
-
-            -- הסתעפות נוספת: בדיקת סטטוס טיפול
-            IF v_treatment_record.status = 'Completed' THEN
-                -- RAISE NOTICE 'Found a completed treatment for resident % on %.', p_res_id, v_treatment_record.treatmentdate;
-                -- (אפשר לעשות פה משהו אחר, לדוגמה, עדכון טבלה אחרת)
-                CONTINUE; -- המשך לטיפול הבא
-            END IF;
-        END LOOP;
-
-        -- לאחר ספירת הטיפולים, סגור את הקורסור הנוכחי
-        -- ואז פתח אותו מחדש כדי להחזיר אותו ללקוח במצב "נקי" (כי עברנו עליו כבר בלולאה)
-        CLOSE v_treatment_cursor;
-
-        -- פתח מחדש את הקורסור כדי להחזיר אותו כ-REF CURSOR ללקוח
+        -- פתיחת הקורסור המפורש עבור הלקוח
         OPEN v_treatment_cursor FOR
             SELECT
                 mt.treatmentdate,
@@ -97,27 +57,74 @@ BEGIN
             AND (p_status_filter IS NULL OR mt.status = p_status_filter)
             ORDER BY mt.treatmentdate DESC;
 
-        -- רישום סיום מוצלח
+        -- עדכון סטטוס הלוג ל'SUCCESS' לפני החזרה
         v_log_status := 'SUCCESS';
-        RETURN v_treatment_cursor;
 
     EXCEPTION
         WHEN NO_DATA_FOUND THEN
-            -- אם לא נמצאו טיפולים כלל עבור הדייר (ה-SELECT הראשון יחזיר כלום)
+            -- עדכון סטטוס הלוג לשגיאה
             v_log_status := 'NO_TREATMENTS_FOUND';
             RAISE EXCEPTION 'No treatments found for resident ID %.', p_res_id;
+
         WHEN OTHERS THEN
-            -- טיפול כללי בכל שגיאה אחרת
-            v_log_status := 'FAILED: ' || SQLSTATE; -- SQLSTATE הוא קוד שגיאה
+            -- עדכון סטטוס הלוג לשגיאה כללית
+            v_log_status := 'FAILED: ' || SQLSTATE;
             RAISE EXCEPTION 'An error occurred while retrieving treatments for resident %: %', p_res_id, SQLERRM;
-    FINALLY
-        -- ה-FINALLY בלוק ירוץ תמיד, בין אם הייתה שגיאה ובין אם לא
-        -- זה מקום טוב לעדכן את הלוג הסופי
-        UPDATE function_call_log
-        SET status = v_log_status
-        WHERE resident_id = p_res_id AND function_name = 'get_resident_treatments_refcursor'
-        ORDER BY call_timestamp DESC
-        LIMIT 1;
-    END;
+    END; -- סיום בלוק ה-BEGIN הפנימי
+
+    -- עדכון רשומת הלוג עם הסטטוס הסופי (יופעל תמיד, גם אם הייתה שגיאה בבלוק הפנימי והתרחשה RAISE EXCEPTION)
+    -- הבלוק הזה ירוץ *אחרי* שה-EXCEPTION נזרק, לכן יש לוודא שהלוג נשמר *בתוך* בלוק ה-EXCEPTION עצמו
+    -- או להשתמש בבלוק EXCEPTION חיצוני יותר.
+    -- בתיקון זה, נבצע את ה-UPDATE של הלוג בתוך בלוק ה-EXCEPTION עצמו, כיוון ש-RAISE EXCEPTION יצא מהפונקציה.
+    -- אם הגענו לכאן, הפונקציה לא זרקה שגיאה ויש לנו SUCCESS.
+    -- אם היתה שגיאה בבלוק הפנימי, הפונקציה היתה יוצאת עם RAISE EXCEPTION כבר שם.
+
+    -- רק אם הפונקציה לא נזרקה עם שגיאה, נעדכן את הלוג ל'SUCCESS'.
+    -- (ה-RAISE EXCEPTION בבלוק הפנימי מונע הגעה לכאן במקרה של שגיאה)
+    UPDATE function_call_log
+    SET status = v_log_status
+    WHERE log_id = v_log_id;
+
+    RETURN v_treatment_cursor;
+END;
+$$ LANGUAGE plpgsql;
+-----------------------------------------------------------------------------------
+DO $$
+DECLARE
+    -- משתנה שיכיל את ה-refcursor שחוזר מהפונקציה
+    cur_result refcursor;
+    -- משתנה מסוג RECORD שיכיל כל שורה שנשלפת מהקורסור
+    r RECORD;
+BEGIN
+    -- קריאה לפונקציה שלך והקצאת ה-refcursor למשתנה cur_result
+    -- החלף את '1' במזהה דייר קיים בטבלת residents שלך
+    -- ו-NULL::VARCHAR אם אינך רוצה לסנן לפי סטטוס
+    cur_result := get_resident_treatments_refcursor(1, NULL::VARCHAR);
+
+    -- לולאה לשליפה והצגת הנתונים מהקורסור
+    LOOP
+        -- שלוף את השורה הבאה מהקורסור לתוך המשתנה r
+        FETCH cur_result INTO r;
+
+        -- צא מהלולאה אם לא נמצאו יותר שורות
+        EXIT WHEN NOT FOUND;
+
+        -- הצגת הנתונים באמצעות RAISE NOTICE
+        -- הודעות אלו יופיעו בחלון ה"Messages" או בפלט הקונסולה שלך
+        RAISE NOTICE 'טיפול: %, מזהה רופא: %, שם רופא: %, מטרה: %, סטטוס: %',
+                     r.treatmentdate, r.doctor_id, r.doctor_name, r.purpose, r.status;
+    END LOOP;
+
+    -- סגור את הקורסור כדי לשחרר משאבים
+    CLOSE cur_result;
+
+EXCEPTION
+    -- טיפול בחריגות כלליות שעלולות לקרות במהלך הרצת בלוק ה-DO
+    WHEN OTHERS THEN
+        RAISE NOTICE 'שגיאה בהרצת בלוק הבדיקה: %', SQLERRM;
+        -- וודא שהקורסור נסגר גם במקרה של שגיאה
+        IF cur_result IS NOT NULL THEN
+            CLOSE cur_result;
+        END IF;
 END;
 $$ LANGUAGE plpgsql;
