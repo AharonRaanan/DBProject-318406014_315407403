@@ -1,3 +1,5 @@
+-- פונקציה לסיכום דיירים לפי ציוד 
+
 CREATE OR REPLACE FUNCTION get_equipment_residents_summary(
     min_devices INT,
     min_rentals INT,
