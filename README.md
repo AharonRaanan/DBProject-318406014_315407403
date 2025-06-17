@@ -268,7 +268,7 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 
 # stage D:
-
+## Function 1
 ### Function that returns positions with active employees count exceeding a given threshold
 ![צילום מסך 2025-06-17 191533](https://github.com/user-attachments/assets/0a010e36-cd2d-42e9-aead-7e43711ac99a)
 
@@ -277,7 +277,7 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 ![צילום מסך 2025-06-17 191442](https://github.com/user-attachments/assets/f637aeea-8b03-45c0-83e0-6767d619f21c)
 
-
+## Function 2
 ### Function that returns active employees for a given position ID
 
 ![צילום מסך 2025-06-17 192212](https://github.com/user-attachments/assets/5f0ac17f-d323-4aa3-b35d-6a947e34defe)
@@ -288,7 +288,7 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 ![צילום מסך 2025-06-17 192259](https://github.com/user-attachments/assets/f749de4d-9c37-4805-b9be-400ea4fdd2f0)
 
-
+## Function 3
 ### Function that summarizes equipment usage by residents filtered by various criteria
 
 ![צילום מסך 2025-06-17 192629](https://github.com/user-attachments/assets/7cc2db28-aebc-4c42-9b8d-6d5d40be2dab)
@@ -301,23 +301,29 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 ![צילום מסך 2025-06-17 193043](https://github.com/user-attachments/assets/244a238a-d75d-42bb-a191-0358d3c47867)
 
-
+## Procedure 1
 ### Procedure that updates doctors' email addresses based on their first names matched from employee records
 
 ![צילום מסך 2025-06-17 193420](https://github.com/user-attachments/assets/cb7f6af4-c57c-40a0-98e3-8371db7db5ed)
 
 ![צילום מסך 2025-06-17 193456](https://github.com/user-attachments/assets/600a47f4-ac24-4e5e-aa1b-39b6cbd1f43b)
-
+## Procedure 2
 ### Procedure that updates medication status for residents based on cutoff date and logs the changes
 
 ![צילום מסך 2025-06-17 193622](https://github.com/user-attachments/assets/21ddf00c-f781-4b9c-ac06-1c556b39cd1e)
 
 
 ![צילום מסך 2025-06-17 193725](https://github.com/user-attachments/assets/bb613451-ec86-4ed1-b55b-d9d286a05892)
-
+## Trigger 1
 ### Trigger that logs changes when a doctor's email or phone number is updated
 
 ![צילום מסך 2025-06-17 193928](https://github.com/user-attachments/assets/c50fdb2f-91f0-4c13-bd57-0b0c25c384d5)
 
 ![צילום מסך 2025-06-17 194029](https://github.com/user-attachments/assets/5e611871-602c-45ca-8114-597154c8206e)
+## Trigger 2
+### Trigger that logs every new insert into the sanctionbonus table
 
+![צילום מסך 2025-06-17 194234](https://github.com/user-attachments/assets/391fcbf8-0dde-4aa8-93e8-d140d00e6e13)
+
+
+![צילום מסך 2025-06-17 194254](https://github.com/user-attachments/assets/28e2ba30-bc03-4b5f-a388-e61649ef940d)
