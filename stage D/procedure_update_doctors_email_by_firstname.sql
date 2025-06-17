@@ -1,3 +1,6 @@
+-- פרוצדורה לעדכון מייל הרופאים בהתאם לשם הפרטי בטבלת העובדים
+
+
 CREATE OR REPLACE PROCEDURE update_doctors_email_by_firstname()
 LANGUAGE plpgsql
 AS $$
