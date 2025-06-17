@@ -315,4 +315,9 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 ![צילום מסך 2025-06-17 193725](https://github.com/user-attachments/assets/bb613451-ec86-4ed1-b55b-d9d286a05892)
 
+### Trigger that logs changes when a doctor's email or phone number is updated
+
+![צילום מסך 2025-06-17 193928](https://github.com/user-attachments/assets/c50fdb2f-91f0-4c13-bd57-0b0c25c384d5)
+
+![צילום מסך 2025-06-17 194029](https://github.com/user-attachments/assets/5e611871-602c-45ca-8114-597154c8206e)
 
