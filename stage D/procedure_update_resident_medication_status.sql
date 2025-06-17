@@ -1,3 +1,6 @@
+-- פרוצדורה לעדכון סטטוס תרופות של דיירים לפי תאריך חתך נתון
+
+
 CREATE OR REPLACE PROCEDURE update_resident_medication_status(cutoff_date DATE)
 LANGUAGE plpgsql
 AS $$
