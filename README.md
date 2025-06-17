@@ -327,3 +327,14 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 
 ![צילום מסך 2025-06-17 194254](https://github.com/user-attachments/assets/28e2ba30-bc03-4b5f-a388-e61649ef940d)
+
+## Main 1
+![צילום מסך 2025-06-17 194952](https://github.com/user-attachments/assets/d6a3cce5-5b65-4cec-ad8a-55e77993c8f3)
+![צילום מסך 2025-06-17 194952](https://github.com/user-attachments/assets/d6a3cce5-5b65-4cec-ad8a-55e77993c8f3)
+
+## Main 2
+
+![צילום מסך 2025-06-17 195009](https://github.com/user-attachments/assets/f32ef5d7-7e53-4a49-a69e-05b76b854c27)
+![צילום מסך 2025-06-17 195009](https://github.com/user-attachments/assets/f32ef5d7-7e53-4a49-a69e-05b76b854c27)
+
+
