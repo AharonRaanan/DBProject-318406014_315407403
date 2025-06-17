@@ -278,5 +278,15 @@ Objective: To identify which sanctions have been assigned to employees most freq
 ![צילום מסך 2025-06-17 191442](https://github.com/user-attachments/assets/f637aeea-8b03-45c0-83e0-6767d619f21c)
 
 
+### Function that returns active employees for a given position ID
+
+![צילום מסך 2025-06-17 192212](https://github.com/user-attachments/assets/5f0ac17f-d323-4aa3-b35d-6a947e34defe)
+
+
+![צילום מסך 2025-06-17 192252](https://github.com/user-attachments/assets/2cd9be6d-3fef-46f5-b538-be0c4501f282)
+
+
+![צילום מסך 2025-06-17 192259](https://github.com/user-attachments/assets/f749de4d-9c37-4805-b9be-400ea4fdd2f0)
+
 
 
