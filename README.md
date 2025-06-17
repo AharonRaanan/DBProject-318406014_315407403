@@ -266,3 +266,17 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 [![View number 2, query 2](https://raw.githubusercontent.com/AharonRaanan/DBProject-318406014_315407403/main/stage%20c/View%20number%202%2C%20query%202.png)](https://github.com/AharonRaanan/DBProject-318406014_315407403/blob/main/stage%20c/View%20number%202%2C%20query%202.png)
 
+
+# stage D:
+
+### Function that returns positions with active employees count exceeding a given threshold
+![צילום מסך 2025-06-17 191533](https://github.com/user-attachments/assets/0a010e36-cd2d-42e9-aead-7e43711ac99a)
+
+
+![צילום מסך 2025-06-17 191350](https://github.com/user-attachments/assets/74bd24ad-1532-47a3-9f28-1f8da994ec7c)
+
+![צילום מסך 2025-06-17 191442](https://github.com/user-attachments/assets/f637aeea-8b03-45c0-83e0-6767d619f21c)
+
+
+
+
