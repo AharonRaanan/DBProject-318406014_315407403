@@ -302,4 +302,11 @@ Objective: To identify which sanctions have been assigned to employees most freq
 ![צילום מסך 2025-06-17 193043](https://github.com/user-attachments/assets/244a238a-d75d-42bb-a191-0358d3c47867)
 
 
+### Procedure that updates doctors' email addresses based on their first names matched from employee records
+
+![צילום מסך 2025-06-17 193420](https://github.com/user-attachments/assets/cb7f6af4-c57c-40a0-98e3-8371db7db5ed)
+
+![צילום מסך 2025-06-17 193456](https://github.com/user-attachments/assets/600a47f4-ac24-4e5e-aa1b-39b6cbd1f43b)
+
+
 
