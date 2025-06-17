@@ -308,5 +308,11 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 ![צילום מסך 2025-06-17 193456](https://github.com/user-attachments/assets/600a47f4-ac24-4e5e-aa1b-39b6cbd1f43b)
 
+### Procedure that updates medication status for residents based on cutoff date and logs the changes
+
+![צילום מסך 2025-06-17 193622](https://github.com/user-attachments/assets/21ddf00c-f781-4b9c-ac06-1c556b39cd1e)
+
+
+![צילום מסך 2025-06-17 193725](https://github.com/user-attachments/assets/bb613451-ec86-4ed1-b55b-d9d286a05892)
 
 
