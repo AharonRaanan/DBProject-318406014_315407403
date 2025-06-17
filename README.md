@@ -289,4 +289,13 @@ Objective: To identify which sanctions have been assigned to employees most freq
 ![צילום מסך 2025-06-17 192259](https://github.com/user-attachments/assets/f749de4d-9c37-4805-b9be-400ea4fdd2f0)
 
 
+### Function that summarizes equipment usage by residents filtered by various criteria
+
+![צילום מסך 2025-06-17 192629](https://github.com/user-attachments/assets/7cc2db28-aebc-4c42-9b8d-6d5d40be2dab)
+
+![צילום מסך 2025-06-17 192647](https://github.com/user-attachments/assets/a5d4f1b1-9364-44ff-aae1-0e2e5553fa25)
+
+![צילום מסך 2025-06-17 192703](https://github.com/user-attachments/assets/156ade71-507f-4df4-89a2-6cefae333ab8)
+
+
 
