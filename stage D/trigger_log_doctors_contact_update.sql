@@ -1,27 +1,57 @@
--- יצירת פונקציית הטריגר
-CREATE OR REPLACE FUNCTION log_doctors_contact_update()
+-- יצירת טבלת הלוג עם שמות פרטי ומשפחה
+CREATE TABLE IF NOT EXISTS doctors_email_log (
+    log_id SERIAL PRIMARY KEY,
+    doctor_id INT NOT NULL,
+    doctor_first_name VARCHAR,
+    doctor_last_name VARCHAR,
+    old_email VARCHAR,
+    new_email VARCHAR,
+    old_phone VARCHAR,
+    new_phone VARCHAR,
+    changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- יצירת פונקציית הטריגר שמתעדכנת בשינוי מייל או טלפון
+CREATE OR REPLACE FUNCTION log_doctors_contact_changes()
 RETURNS TRIGGER AS $$
+DECLARE
+    first_name VARCHAR;
+    last_name VARCHAR;
 BEGIN
-    IF (NEW.email IS DISTINCT FROM OLD.email) OR (NEW.phone IS DISTINCT FROM OLD.phone) THEN
-        INSERT INTO doctors_email_log(doctor_id, old_email, new_email, old_phone, new_phone, changed_at)
-        VALUES (
-            OLD.employeeid_,
-            OLD.email,
-            NEW.email,
-            OLD.phone,
-            NEW.phone,
-            CURRENT_TIMESTAMP
-        );
-    END IF;
+    -- משיכת שם פרטי ושם משפחה מטבלת העובדים
+    SELECT firstname_, lastname_ INTO first_name, last_name
+    FROM employee
+    WHERE employeeid_ = NEW.employeeid_;
+
+    -- הוספת רשומה ללוג עם כל הפרטים לפני ואחרי השינוי
+    INSERT INTO doctors_email_log(
+        doctor_id,
+        doctor_first_name,
+        doctor_last_name,
+        old_email,
+        new_email,
+        old_phone,
+        new_phone,
+        changed_at
+    )
+    VALUES (
+        NEW.employeeid_,
+        first_name,
+        last_name,
+        OLD.email,
+        NEW.email,
+        OLD.phone,
+        NEW.phone,
+        CURRENT_TIMESTAMP
+    );
+
     RETURN NEW;
 END;
 $$ LANGUAGE plpgsql;
 
--- מחיקת טריגר קיים אם יש
-DROP TRIGGER IF EXISTS trg_doctors_contact_update ON doctors;
-
--- יצירת טריגר חדש שיפעיל את הפונקציה אחרי עדכון בטבלת doctors
-CREATE TRIGGER trg_doctors_contact_update
-AFTER UPDATE ON doctors
+-- יצירת הטריגר על טבלת doctors שמאזין לעדכונים בעמודות email או phone
+CREATE TRIGGER doctors_contact_update_trigger
+AFTER UPDATE OF email, phone ON doctors
 FOR EACH ROW
-EXECUTE FUNCTION log_doctors_contact_update();
+WHEN (OLD.email IS DISTINCT FROM NEW.email OR OLD.phone IS DISTINCT FROM NEW.phone)
+EXECUTE FUNCTION log_doctors_contact_changes();
