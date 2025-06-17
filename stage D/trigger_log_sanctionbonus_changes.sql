@@ -1,3 +1,6 @@
+-- טריגר המתעדכן בעת הוספה או שינוי של נתוני מענקים או סנקציות, לרישום היסטוריית שינויים בטבלת הלוג
+
+
 CREATE TABLE IF NOT EXISTS sanctionbonus_log (
     log_id SERIAL PRIMARY KEY,
     recordid_ integer NOT NULL,
