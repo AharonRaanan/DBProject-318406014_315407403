@@ -1,3 +1,6 @@
+-- פונקציה להחזרת רשימת עובדים פעילים לפי מזהה תפקיד
+
+
 DROP FUNCTION IF EXISTS get_active_employees_by_position_simple(integer);
 
 CREATE OR REPLACE FUNCTION get_active_employees_by_position_simple(p_positionid INT)
