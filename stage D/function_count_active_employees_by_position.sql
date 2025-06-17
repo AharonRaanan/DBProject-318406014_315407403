@@ -1,3 +1,6 @@
+-- פונקציה לספירת מספר העובדים הפעילים בכל תפקיד, רק לתפקידים עם יותר ממספר מינימלי נתון
+
+
 DROP FUNCTION IF EXISTS count_active_employees_by_position(INT);
 
 CREATE OR REPLACE FUNCTION count_active_employees_by_position(min_employees INT)
