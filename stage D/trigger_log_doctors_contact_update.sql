@@ -1,3 +1,6 @@
+-- טריגר המתעדכן בעת שינוי כתובת מייל או טלפון של רופא, ושומר היסטוריית שינויים בטבלת הלוג
+
+
 -- יצירת טבלת הלוג עם שמות פרטי ומשפחה
 CREATE TABLE IF NOT EXISTS doctors_email_log (
     log_id SERIAL PRIMARY KEY,
