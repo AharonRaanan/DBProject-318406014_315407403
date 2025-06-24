@@ -340,6 +340,7 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 # stage E:
 ## We used PyCharm and ChatGpt and Calud.AI
+## The system allows you to sort by a selected object, add and delete records, display query results, and execute functions and procedures.
 ### Username: myuser
 ### Password: mypassword
 
