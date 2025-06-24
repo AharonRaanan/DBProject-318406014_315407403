@@ -1,0 +1,137 @@
+📘 User Guide – Database Management System
+Enhanced Elderly Care Facility Manager – Version 5.1
+Developed by: Aharon Raanan & Levi Yitzchak Grinfeld
+Year: 2025
+
+🧾 1. Login Screen
+On the login screen, enter the following information:
+
+Username: Your PostgreSQL username (same as used in pgAdmin4, e.g., postgres or myuser)
+
+Password: The password for that database user
+
+Host: Use localhost if your database is local
+
+Database: Type the name of your PostgreSQL database (e.g., nursing_home_db)
+
+▶ Click "Connect to Database" to proceed to the main interface.
+
+🏠 2. Main Interface – Tables and Management Tabs
+After connecting, the main system window displays various management tabs:
+
+Residents, Doctors, Medications, Employees, Equipment, Treatments, Departments, Positions
+
+Also: Queries & Reports, Functions, Procedures
+
+Each tab provides these actions:
+
+✅ Add Record – Add a new entry
+
+✏️ Edit Record – Modify existing entries
+
+❌ Delete Record – Remove an entry
+
+🔄 Refresh – Reload data from the database
+
+📤 Export – Export data to a file
+
+🔍 A Search bar is available at the top-right for quick filtering.
+
+📂 3. Top Menu – File (Top Left Corner)
+At the top-left corner, the File menu provides two options:
+
+Logout – Return to the login screen (you can switch users or databases)
+
+Exit – Close the entire application
+
+This menu is available across all application screens.
+
+🧰 4. Functions Tab
+This section allows executing stored SQL functions from the database:
+
+Click "Refresh Functions" to load available functions
+
+Select a function from the list
+
+Enter parameters if required
+
+Click "Run Function"
+
+Results are shown in the lower panel (Function Results)
+
+Example functions:
+
+count_active_employees_by_position(position_id)
+
+get_equipment_residents_summary(min_devices, min_rentals, min_current_rentals)
+
+🔧 5. Procedures Tab
+This section runs stored procedures from the database.
+
+Click "Refresh Procedures" to list them
+
+Select a procedure
+
+Enter parameters if needed
+
+Click "Run Procedure"
+
+Execution results or confirmation will appear in the lower area
+
+Example procedures:
+
+update_doctors_email_by_firstname()
+
+update_resident_medication_status(cutoff_date)
+
+📊 6. Queries & Reports Tab
+This interface lets you run predefined SQL queries and view visual results:
+
+Choose a query from the dropdown list
+
+Click "Run Query"
+
+View the results in a text table format
+
+A corresponding graph visualization (bar/pie/line) appears below
+
+Example:
+
+"Residents with more than 4 devices"
+Returns a list of residents and a bar chart showing device counts.
+
+ℹ️ 7. About Screen – via Help Menu
+To access system information:
+
+Go to the Help menu (top bar)
+
+Select About
+
+This screen includes:
+
+System version
+
+Developer names
+
+Full feature list
+
+Available stored functions and procedures
+
+Description of enhanced tools in version 5.1
+
+🧩 Enhanced Features in Version 5.1
+Automatic detection of function/procedure parameters
+
+Input dialogs with real-time parameter validation
+
+Automatic type conversion for parameters
+
+Filtered function/procedure list showing only user-defined entries
+
+Export to CSV
+
+Real-time schema change detection
+
+Interactive graphs and charts (Bar, Pie, Line)
+
+Improved error handling with transaction rollback
