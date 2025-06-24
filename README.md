@@ -338,3 +338,34 @@ Objective: To identify which sanctions have been assigned to employees most freq
 ![צילום מסך 2025-06-17 195009](https://github.com/user-attachments/assets/f32ef5d7-7e53-4a49-a69e-05b76b854c27)
 
 
+# stage E:
+## We used PyCharm and ChatGpt
+### Username: myuser
+### Password: mypassword
+
+![צילום מסך 2025-06-24 193358](https://github.com/user-attachments/assets/9aaf9b37-86c2-4ffd-8d47-07eac5931eca)
+
+
+## The data
+
+![צילום מסך 2025-06-24 190759](https://github.com/user-attachments/assets/0b4224b3-8edf-400f-81de-6a3316f167f3)
+## Example of query 1
+![צילום מסך 2025-06-24 191416](https://github.com/user-attachments/assets/4cead5c2-6c6c-4f80-a717-b7672634b842)
+
+## Example of query 2
+![צילום מסך 2025-06-24 191433](https://github.com/user-attachments/assets/993c8b2e-98eb-478b-a20c-dca0482a0721)
+
+## Example of Function 1
+
+![צילום מסך 2025-06-24 190917](https://github.com/user-attachments/assets/922dfc66-7a87-4a26-8256-df35b1a5b78d)
+## Example of Function 2
+![צילום מסך 2025-06-24 190957](https://github.com/user-attachments/assets/64815a69-60ca-46ec-8d8a-14fb04d84ef2)
+
+## Example of Procedure 1
+![צילום מסך 2025-06-24 191011](https://github.com/user-attachments/assets/bbcf42ab-77e2-40ea-a29a-b61824f76657)
+
+## Example of Procedure 2
+
+![צילום מסך 2025-06-24 191047](https://github.com/user-attachments/assets/ef40b934-ad2a-4492-9282-d9e255845387)
+
+
