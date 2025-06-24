@@ -339,8 +339,210 @@ Objective: To identify which sanctions have been assigned to employees most freq
 
 
 # stage E:
-## We used PyCharm and ChatGpt and Calud.AI
-## The system allows you to sort by a selected object, add and delete records, display query results, and execute functions and procedures.
+
+
+# 🏥 Enhanced Database Management System – Version 5.1
+
+**Developed by:** Aharon Raanan & Levi Yitzchak Grinfeld  
+**Year:** 2025
+
+A full-featured PostgreSQL-based desktop system for managing elderly care facilities, supporting CRUD operations, visual queries, functions, and procedures – all through a modern GUI built with Python and Tkinter.
+
+---
+
+## 📥 Login Screen
+
+To start using the system:
+
+- **Username:** Your PostgreSQL username (same as in pgAdmin4)
+- **Password:** Your database user's password
+- **Host:** Use `localhost` (or another host if remote)
+- **Database:** Name of the database you want to connect to
+
+➡️ Click **`Connect to Database`** to access the main dashboard.
+
+---
+
+## 🧭 Main Interface (Tabs Overview)
+
+Once connected, the interface displays multiple tabs:
+
+- `Residents`, `Doctors`, `Medications`, `Employees`, `Equipment`, `Treatments`, `Departments`, `Positions`
+- Additional tabs: `Queries & Reports`, `Functions`, `Procedures`
+
+Each data tab includes:
+- ✅ **Add Record**
+- ✏️ **Edit Record**
+- ❌ **Delete Record**
+- 🔄 **Refresh**
+- 📤 **Export**
+- 🔍 **Search bar** for filtering
+
+---
+
+## 📁 File Menu (Top Left)
+
+The `File` menu includes:
+
+- 🔒 **Logout** – Return to the login screen (switch user/database)
+- ❌ **Exit** – Close the application
+
+Accessible from all screens.
+
+---
+
+## 🛠️ Functions Tab
+
+Execute stored PostgreSQL functions with optional parameters:
+
+1. Click **`Refresh Functions`**
+2. Select a function
+3. Input parameters (if needed)
+4. Click **`Run Function`**
+5. View output in the result area
+
+📌 Example functions:
+- `count_active_employees_by_position(position_id)`
+- `get_equipment_residents_summary(min_devices, min_rentals, min_current_rentals)`
+
+---
+
+## ⚙️ Procedures Tab
+
+Run stored procedures with or without parameters:
+
+1. Click **`Refresh Procedures`**
+2. Select a procedure
+3. Provide parameters if required
+4. Click **`Run Procedure`**
+5. Output or success message will be shown below
+
+📌 Example procedures:
+- `update_doctors_email_by_firstname()`
+- `update_resident_medication_status(cutoff_date)`
+
+---
+
+## 📊 Queries & Reports Tab
+
+Visualize and explore advanced queries:
+
+1. Select a query from the dropdown
+2. Click **`Run Query`**
+3. See results in a formatted text table
+4. View automatic **visual charts** below (Bar, Pie, or Line)
+
+📌 Example query:
+> **Residents with more than 4 devices**
+
+---
+
+## ℹ️ About Screen (via `Help` Menu)
+
+Navigate to `Help > About` to view:
+
+- System version and year
+- Developer credits
+- Feature highlights
+- Listed available:
+  - Functions
+  - Procedures
+- Enhanced version 5.1 capabilities
+
+---
+
+## 🌟 Enhanced Features (v5.1)
+
+- Parameter input detection for functions and procedures
+- Automatic parameter type conversion
+- Custom input dialogs
+- Filtered display (custom objects only)
+- Real-time schema monitoring
+- Export functionality (CSV)
+- Advanced query visualizations:
+  - Bar Charts
+  - Pie Charts
+  - Line Charts
+- Detailed error handling with rollback support
+
+---
+
+© 2025 All rights reserved
+
+## 🧰 Development Tools & Workflow
+
+This system was developed as part of an academic database project, with the goal of creating a user-friendly desktop interface for managing and interacting with a PostgreSQL database.
+
+---
+
+### 🧠 AI Assistance
+
+To accelerate development and ensure best practices, we actively used:
+- **ChatGPT (OpenAI)** – for architectural advice, code generation, bug fixing, and user interface ideas
+- **Claude (Anthropic)** – for additional insights, natural language clarification, and code explanations
+
+The final product reflects a combination of human logic and AI-enhanced programming.
+
+---
+
+### 🖥️ Programming Language
+
+- **Python 3.11** – used for its simplicity and powerful ecosystem
+- The entire application is implemented in a single, modular Python file for maximum portability
+
+---
+
+### 🪟 GUI Framework
+
+- **Tkinter** – used to build all application windows, forms, and widgets
+- **ttk** – used for advanced widgets like tabbed views (`Notebook`) and tables (`Treeview`)
+
+---
+
+### 🗄️ Database System
+
+- **PostgreSQL** – used as the central database engine
+- **pgAdmin 4** – used for schema design, function/procedure creation, and manual testing
+
+The system connects directly to a PostgreSQL server using user-provided credentials and database name.
+
+---
+
+### 🔌 Database Connectivity
+
+- **psycopg2-binary** is used to:
+  - Establish and manage database connections
+  - Execute **SQL queries**, **stored procedures**, and **functions**
+  - Handle parameterized inputs and transaction rollback
+
+---
+
+### 📊 Visualization
+
+- **Matplotlib** – integrated with Tkinter for graphing:
+  - Bar charts
+  - Pie charts
+  - Line charts
+
+These are automatically displayed based on query results.
+
+---
+
+### 🧠 Application Logic
+
+The system supports full **bidirectional interaction** with the database:
+
+- ✅ **Read**: fetch data from PostgreSQL and display it in interactive tables
+- ✅ **Write**: add/edit/delete records that are saved back to the database
+- ✅ **Run**: call stored **functions** and **procedures** from PostgreSQL with dynamic parameter input
+- ✅ **Visualize**: convert SQL query results into real-time charts
+
+All changes are immediately reflected in the database using SQL `INSERT`, `UPDATE`, `DELETE`, and `CALL`.
+
+---
+
+
+
 ### Username: myuser
 ### Password: mypassword
 
